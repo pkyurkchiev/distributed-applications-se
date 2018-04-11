@@ -5,7 +5,7 @@ This repository is part of the distributed applications course for Software Engi
 #
 ### Weeks Schedule
 
-* First week - [presentations](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture 01.pptx)
+* First week - [presentation one](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-01.pptx), [presentation two](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-02.pptx)
 * Second week -
 * Third week -
 * Fourth week -
