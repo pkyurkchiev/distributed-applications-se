@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="MC.WcfService.Movies" CodeBehind="Movies.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="MC.WcfServices.Movies" CodeBehind="Movies.svc.cs" %>

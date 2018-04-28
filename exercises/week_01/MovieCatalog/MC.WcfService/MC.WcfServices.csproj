@@ -92,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MC.ApplicationServices\MC.ApplicationServices.csproj">
-      <Project>{26DC9DA8-10B4-4E2C-92A5-3A8BF1CA9812}</Project>
+      <Project>{26dc9da8-10b4-4e2c-92a5-3a8bf1ca9812}</Project>
       <Name>MC.ApplicationServices</Name>
     </ProjectReference>
   </ItemGroup>
