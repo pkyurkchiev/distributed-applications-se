@@ -12,6 +12,5 @@ exercises -
 [1](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_01)
 * Fourth week - presentations: [7](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-07.pdf)
 exercises - 
-[1](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_02)
-exercises -
+[2](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_02)
 * Fifth week -
