@@ -17,3 +17,7 @@ exercises -
 [8](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-08.pdf)
 exercises - 
 [3](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_03)
+* Six week -
+[8](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-09.pdf)
+exercises - 
+[3](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_04)
