@@ -2,6 +2,13 @@
 This repository is part of the distributed applications course for Software Engineering of Plovdiv University
 
 
+
+## Курсова задача
+* [even faculty numbers](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/tasks/task_even.md)
+* [odd faculty numbers](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/tasks/task_odd.md)
+
+
+
 #
 ### Weeks Schedule
 
