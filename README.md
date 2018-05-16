@@ -3,7 +3,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 
-## Курсова задача
+## Course assignment
 * [even faculty numbers](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/tasks/task_even.md)
 * [odd faculty numbers](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/tasks/task_odd.md)
 
