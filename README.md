@@ -33,3 +33,7 @@ This repository is part of the distributed applications course for Software Engi
 * Six week:
   * presentations - [9](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-09.pdf)
   * exercises - [4](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_04)
+
+* Seventh week:
+  * presentations - [10](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-10.pdf), [11](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-11.pdf)
+  * exercises - [5](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/week_05)
