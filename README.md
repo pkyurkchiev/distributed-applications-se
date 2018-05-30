@@ -9,7 +9,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## Exercises documentation:
-* [Project Web API Authentication] (https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/project-authentication.md)
+* [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/project-authentication.md)
 
 
 #
