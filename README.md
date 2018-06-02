@@ -49,5 +49,5 @@ This repository is part of the distributed applications course for Software Engi
   * exercises - [6](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/06)
   
 * Nine week:  
-  * presentations - [12](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-12.pdf),
+  * presentations - [12](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-12.pdf)
   * exercises - [7](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/07)
