@@ -12,6 +12,10 @@ This repository is part of the distributed applications course for Software Engi
 * [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/project-authentication.md)
 
 
+## Setup firebase:
+* [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/setup-firebase.md)
+
+
 #
 ### Weeks Schedule
 
@@ -45,4 +49,5 @@ This repository is part of the distributed applications course for Software Engi
   * exercises - [6](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/06)
   
 * Nine week:  
+  * presentations - [12](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/presentations/Lecture-12.pdf),
   * exercises - [7](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/exercises/07)
