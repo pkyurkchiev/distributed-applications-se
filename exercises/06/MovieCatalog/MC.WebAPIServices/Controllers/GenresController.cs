@@ -25,6 +25,12 @@ namespace MC.WebAPIServices.Controllers
             return Json(_service.Get());
         }
 
+        [HttpGet]
+        public IHttpActionResult GetById(int id)
+        {
+            return Json(_service.GetById(id));
+        }
+
         [HttpPost]
         public IHttpActionResult Save(GenreDto genreDto)
         {

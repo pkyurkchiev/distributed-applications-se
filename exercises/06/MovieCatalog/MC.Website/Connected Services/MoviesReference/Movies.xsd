@@ -7,20 +7,32 @@
   </xs:complexType>
   <xs:element name="ArrayOfMovieDto" nillable="true" type="tns:ArrayOfMovieDto" />
   <xs:complexType name="MovieDto">
-    <xs:sequence>
-      <xs:element minOccurs="0" name="Genre" nillable="true" type="tns:GenreDto" />
-      <xs:element minOccurs="0" name="Id" type="xs:int" />
-      <xs:element minOccurs="0" name="ReleaseCountry" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="ReleaseDate" nillable="true" type="xs:dateTime" />
-      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
-    </xs:sequence>
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Genre" nillable="true" type="tns:GenreDto" />
+          <xs:element minOccurs="0" name="ReleaseCountry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReleaseDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
   </xs:complexType>
   <xs:element name="MovieDto" nillable="true" type="tns:MovieDto" />
-  <xs:complexType name="GenreDto">
+  <xs:complexType name="BaseDto">
     <xs:sequence>
       <xs:element minOccurs="0" name="Id" type="xs:int" />
-      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
     </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseDto" nillable="true" type="tns:BaseDto" />
+  <xs:complexType name="GenreDto">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
   </xs:complexType>
   <xs:element name="GenreDto" nillable="true" type="tns:GenreDto" />
 </xs:schema>

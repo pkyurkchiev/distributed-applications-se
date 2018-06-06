@@ -26,6 +26,24 @@ namespace MC.ApplicationServices.Implementations
             return genresDto;
         }
 
+        public GenreDto GetById(int id)
+        {
+            GenreDto genreDto = new GenreDto();
+
+            using (UnitOfWork unitOfWork = new UnitOfWork())
+            {
+                Genre genre = unitOfWork.GenreReposiotry.GetByID(id);
+
+                genreDto = new GenreDto
+                {
+                    Id = genre.Id,
+                    Name = genre.Name
+                };
+            }
+
+            return genreDto;
+        }
+
         public bool Save(GenreDto genreDto)
         {
             Genre genre = new Genre
