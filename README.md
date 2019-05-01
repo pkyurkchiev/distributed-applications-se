@@ -21,4 +21,4 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [SOAP Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-03.pdf), [RESTful Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04.pdf)
   
 * Third week:
-  * presentations - [Distributed architectures Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf)
+  * presentations - [Distributed architectures: Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf)
