@@ -15,8 +15,10 @@ This repository is part of the distributed applications course for Software Engi
 ### Weeks Schedule
 
 * First week: 
-  * presentations - [1](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [2](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
+  * presentations - [Distributed application](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [Network](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
   
 * Second week:
-  * presentations - [3](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-03.pdf), [4](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04.pdf)
- 
+  * presentations - [SOAP Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-03.pdf), [RESTful Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04.pdf)
+  
+* Third week:
+  * presentations - [Distributed architectures Client - Server,  and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf)
