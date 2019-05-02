@@ -10,7 +10,7 @@ This repository is part of the distributed applications course for Software Engi
 * [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/setup-firebase.md)
 
 
-## Exercise from old course
+## Old exercise + plan
 * [2017/2018](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
 
 
