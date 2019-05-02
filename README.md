@@ -2,6 +2,9 @@
 This repository is part of the distributed applications course for Software Engineering of Plovdiv University
 
 
+## Old exercises:
+* [2017/2018](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
+
 
 ## Exercises documentation:
 * [Tools](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/tools.md)
