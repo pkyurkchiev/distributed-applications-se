@@ -12,7 +12,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## NuGet Package Manager Console Guide
-* [Link](https://github.com/pkyurkchiev/distributed-applications-se-p/tree/master/documentations/nuget-console.md)
+* [Link](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/nuget-console.md)
 
 
 ## Setup firebase:
