@@ -11,7 +11,7 @@ This repository is part of the distributed applications course for Software Engi
 * [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/project-authentication.md)
 
 
-## NuGet Package Manager Console Guide
+## NuGet Package Manager Console guide
 * [Link](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/nuget-console.md)
 
 
