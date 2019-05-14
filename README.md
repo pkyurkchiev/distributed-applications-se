@@ -33,3 +33,6 @@ This repository is part of the distributed applications course for Software Engi
   
 * Fourth week:
   * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf)
+  
+* Fifth week:
+  * presentations - [Microservices example](https://github.com/pkyurkchiev/microservices-skeleton-net-core), [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04-1.pdf)
