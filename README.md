@@ -36,3 +36,6 @@ This repository is part of the distributed applications course for Software Engi
   
 * Fifth week:
   * presentations - [Microservices example](https://github.com/pkyurkchiev/microservices-skeleton-net-core), [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04-1.pdf)
+  
+* Sixth week:
+  * presentations - [gRPC Web services example](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
