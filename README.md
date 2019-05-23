@@ -19,6 +19,11 @@ This repository is part of the distributed applications course for Software Engi
 * [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/setup-firebase.md)
 
 
+## Azure Cosmos DB
+* [Download Azure Cosmos DB emulator](https://aka.ms/cosmosdb-emulator)
+* [Documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator)
+
+
 ## Language Guide (proto3)
 * [Link](https://developers.google.com/protocol-buffers/docs/proto3#packages)
 
@@ -43,3 +48,6 @@ This repository is part of the distributed applications course for Software Engi
   
 * Sixth week:
   * presentations - [gRPC Web services example](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
+  
+* Seventh week:
+  * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
