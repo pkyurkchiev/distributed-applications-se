@@ -51,3 +51,6 @@ This repository is part of the distributed applications course for Software Engi
   
 * Seventh week:
   * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
+  
+* Eight week:
+  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
