@@ -3,7 +3,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## POLL
-* [Link](https://docs.google.com/forms/d/e/1FAIpQLScBY_z_7I6Zhm2qEXVUK4ebZa4pbQ0NK5fgR1_lllY3micINw/viewform?usp=sf_link)
+Thanks to all
 
 
 ## Old exercises:
