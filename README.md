@@ -48,19 +48,19 @@ Thanks to all
   * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf)
   
 * Fifth week:
-  * presentations - [Example - Microservices](https://github.com/pkyurkchiev/microservices-skeleton-net-core), [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04-1.pdf)
+  * presentations - [Example - Microservices](https://github.com/pkyurkchiev/microservices-skeleton-net-core), [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
   
 * Sixth week:
-  * presentations - [Example - gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
+  * presentations - [Example - gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
   
 * Seventh week:
-  * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
+  * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
   
 * Eight week:
-  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
+  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
   
 * Ninth week:
-  * presentations - [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
+  * presentations - [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf)
   
 * Tenth week:
-  * presentations - [Event driven architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf), [Internet of things](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-13.pdf)
+  * presentations - [Event driven architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-13.pdf), [Internet of things](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-14.pdf)
