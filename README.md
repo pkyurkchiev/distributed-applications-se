@@ -3,7 +3,6 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## POLL
-Thanks to all
 
 
 ## Old exercises:
@@ -36,31 +35,31 @@ Thanks to all
 ### Weeks Schedule
 
 * First week: 
-  * presentations - [Distributed application](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [Network](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
+  * presentations - Distributed application, Network
   
 * Second week:
-  * presentations - [SOAP Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-03.pdf), [RESTful Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04.pdf)
+  * presentations - SOAP Web services, RESTful Web services
   
 * Third week:
-  * presentations - [Distributed architectures: Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf)
+  * presentations - Distributed architectures: Client - Server and N - Tier
   
 * Fourth week:
-  * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf)
+  * presentations - Distributed architectures: SOA, Distributed architectures: Microservices
   
 * Fifth week:
-  * presentations - [Example - Microservices](https://github.com/pkyurkchiev/microservices-skeleton-net-core), [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
+  * presentations - Example - Microservices, gRPC Web services
   
 * Sixth week:
-  * presentations - [Example - gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
+  * presentations - Example - gRPC Web services, Cloud Computing
   
 * Seventh week:
-  * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
+  * presentations - Cloud databases
   
 * Eight week:
-  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
+  * presentations - Serverless architecture
   
 * Ninth week:
-  * presentations - [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf)
+  * presentations - Cloud storages
   
 * Tenth week:
-  * presentations - [Event driven architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-13.pdf), [Internet of things](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-14.pdf)
+  * presentations - Event driven architecture, Internet of things
