@@ -35,7 +35,7 @@ This repository is part of the distributed applications course for Software Engi
 ### Weeks Schedule
 
 * First week: 
-  * presentations - Distributed application, Network
+  * presentations - [Distributed application](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [Network](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
   
 * Second week:
   * presentations - SOAP Web services, RESTful Web services
