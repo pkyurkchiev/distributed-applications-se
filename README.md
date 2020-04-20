@@ -10,8 +10,8 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## Exercises documentation:
-* [Tools](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/tools.md)
-* [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/project-authentication.md)
+* [Tools](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/tools.md)
+* [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/project-authentication.md)
 
 
 ## NuGet Package Manager Console guide
@@ -19,7 +19,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## Setup firebase:
-* [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-for-se/tree/master/documentations/setup-firebase.md)
+* [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/setup-firebase.md)
 
 
 ## Azure Cosmos DB
@@ -38,7 +38,7 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Distributed application](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [Network](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
   
 * Second week:
-  * presentations - SOAP Web services, RESTful Web services
+  * presentations - [SOAP Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-03.pdf), [RESTful Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-04.pdf)
   
 * Third week:
   * presentations - Distributed architectures: Client - Server and N - Tier
