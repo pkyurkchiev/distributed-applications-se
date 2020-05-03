@@ -44,7 +44,7 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Distributed architectures: Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf)
   
 * Fourth week:
-  * presentations - Distributed architectures: SOA, Distributed architectures: Microservices
+  * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf)
   
 * Fifth week:
   * presentations - Example - Microservices, gRPC Web services
