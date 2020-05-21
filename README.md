@@ -53,7 +53,7 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Example - gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter), [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf)
   
 * Seventh week:
-  * presentations - Cloud databases
+  * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
   
 * Eight week:
   * presentations - Serverless architecture
