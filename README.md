@@ -9,6 +9,10 @@ This repository is part of the distributed applications course for Software Engi
 * [2017/2018](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
 
 
+## WCF
+* Authentication - [link 1](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-authenticate-with-a-user-name-and-password?fbclid=IwAR2dwCDPFCpg4yDVMe2aCWaqE_JaDNKKyXGypmjVOYVxImQ_-7tqUrnUaTI), [link 2](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-use-a-custom-user-name-and-password-validator?fbclid=IwAR2fo0ByIoWfjYwteldH1xenNNelPC1G_FMMDDWf47IWy4IpyU10COuDCZo)
+
+
 ## Exercises documentation:
 * [Tools](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/tools.md)
 * [Project Web API Authentication](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/project-authentication.md)
@@ -20,6 +24,7 @@ This repository is part of the distributed applications course for Software Engi
 
 ## Setup firebase:
 * [Documentation firebase](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/setup-firebase.md)
+* [Get started](https://firebase.google.com/docs/functions/get-started)
 
 
 ## Azure Cosmos DB
@@ -56,7 +61,7 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf)
   
 * Eight week:
-  * presentations - Serverless architecture
+  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
   
 * Ninth week:
   * presentations - Cloud storages
