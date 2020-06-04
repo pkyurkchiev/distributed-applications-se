@@ -64,7 +64,7 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
   
 * Ninth week:
-  * presentations - Cloud storages
+  * presentations - [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf)
   
 * Tenth week:
   * presentations - Event driven architecture, Internet of things
