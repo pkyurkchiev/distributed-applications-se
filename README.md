@@ -67,4 +67,4 @@ This repository is part of the distributed applications course for Software Engi
   * presentations - [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf)
   
 * Tenth week:
-  * presentations - Event driven architecture, Internet of things
+  * presentations - [Event driven architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-13.pdf), [Internet of things](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-14.pdf)
