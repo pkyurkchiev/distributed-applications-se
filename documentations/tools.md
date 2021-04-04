@@ -1,6 +1,6 @@
 ### Tools for testing WCF
 * Where to find WcfTestClient.exe
-  * C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\WcfTestClient.exe
+  * C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\WcfTestClient.exe
 
 
 #
@@ -14,6 +14,6 @@
 ### Tools for start the projects
 * Visual Studio 2019 Community Edition
   *  ASP.NET and web development & .NET Core cross-platform development
-  * .Net Core 3.0 - [link](https://dotnet.microsoft.com/download/dotnet-core/3.0)
-  * .Net Core 2.0 - [link](https://dotnet.microsoft.com/download/dotnet-core/2.0)
-  * .Net Framework 4.7 - [link](https://dotnet.microsoft.com/download/dotnet-framework)
+  * .Net 5 - [link](https://dotnet.microsoft.com/download/dotnet/5.0)
+  * .Net Core 3.1 - [link](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+  * .Net Framework 4.8 - [link](https://dotnet.microsoft.com/download/dotnet-framework)
