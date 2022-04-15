@@ -5,6 +5,10 @@ This repository is part of the distributed applications course for Software Engi
 ## POLL
 
 
+## Roundmap
+* [link](https://miro.com/app/board/o9J_lLSa4dg=/?share_link_id=774145796745)
+
+
 ## Old exercises:
 * [2017/2018](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
 
