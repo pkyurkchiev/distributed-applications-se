@@ -4,11 +4,9 @@ const functions = require('firebase-functions');
 const mkdirp = require('mkdirp');
 const admin = require('firebase-admin');
 admin.initializeApp();
-const spawn = require('child-process-promise').spawn;
 const path = require('path');
 const os = require('os');
-const fs = require('fs');
-const gm = require('gm').subClass({imageMagick: true});;
+const sharp = require('sharp');
 
 // Max height and width of the thumbnail in pixels.
 const THUMB_MAX_HEIGHT = 200;
@@ -18,7 +16,7 @@ const THUMB_PREFIX = 'thumb_';
 
 /**
  * When an image is uploaded in the Storage bucket We generate a thumbnail automatically using
- * ImageMagick.
+ * Sharp.
  * After the thumbnail has been generated and uploaded to Cloud Storage,
  * we write the public URL to the Firebase Realtime Database.
  */
@@ -46,57 +44,37 @@ exports.generateThumbnail = functions.storage.object().onFinalize(async (object)
   // Cloud Storage files.
   const bucket = admin.storage().bucket(object.bucket);
   const file = bucket.file(filePath);
-  const thumbFile = bucket.file(thumbFilePath);
+  //const thumbFile = bucket.file(thumbFilePath);
   const metadata = {
-    contentType: contentType,
-    // To enable Client-side caching you can set the Cache-Control headers here. Uncomment below.
-    // 'Cache-Control': 'public,max-age=3600',
+    contentType: contentType
   };
-  
+
   // Create the temp directory where the storage file will be downloaded.
   await mkdirp(tempLocalDir)
   // Download file from bucket.
-  await file.download({destination: tempLocalFile});
+  await file.download({ destination: tempLocalFile });
   functions.logger.log('The file has been downloaded to', tempLocalFile);
-  // Generate a thumbnail using ImageMagick.
-  //await spawn('convert', [tempLocalFile, '-thumbnail', `${THUMB_MAX_WIDTH}x${THUMB_MAX_HEIGHT}>`, tempLocalThumbFile], {capture: ['stdout', 'stderr']});
-  await new Promise((resolve, reject) => {
-    gm(tempLocalFile)
-      .resize(THUMB_MAX_WIDTH,THUMB_MAX_HEIGHT)
-      .write(tempLocalThumbFile, (err, stdout) => {
-        if (err) {
-          console.error('Failed to blur image.', err);
-          reject(err);
-        } else {
-          console.log(`Blurred image: ${file.name}`);
-          resolve(stdout);
-        }
-      });
+  // Generate a thumbnail using Sharp.
+  sharp(tempLocalFile).resize(THUMB_MAX_WIDTH, THUMB_MAX_HEIGHT).toFile(tempLocalThumbFile, (err) => {
+    if (err) {
+      functions.logger.log(err);
+    } else {
+      functions.logger.log('Thumbnail created at', tempLocalThumbFile);
+    }
   });
-  functions.logger.log('Thumbnail created at', tempLocalThumbFile);
   // Uploading the Thumbnail.
-  await bucket.upload(tempLocalThumbFile, {destination: thumbFilePath, metadata: metadata});
-  functions.logger.log('Thumbnail uploaded to Storage at', thumbFilePath);
-  // Once the image has been uploaded delete the local files to free up disk space.
-  fs.unlinkSync(tempLocalFile);
-  fs.unlinkSync(tempLocalThumbFile);
-  // Get the Signed URLs for the thumbnail and original image.
-  const results = await Promise.all([
-    thumbFile.getSignedUrl({
-      action: 'read',
-      expires: '03-01-2500',
-    }),
-    file.getSignedUrl({
-      action: 'read',
-      expires: '03-01-2500',
-    }),
-  ]);
-  functions.logger.log('Got Signed URLs.');
-  const thumbResult = results[0];
-  const originalResult = results[1];
-  const thumbFileUrl = thumbResult[0];
-  const fileUrl = originalResult[0];
-  // Add the URLs to the Database
-  await admin.database().ref('images').push({path: fileUrl, thumbnail: thumbFileUrl});
-  return functions.logger.log('Thumbnail URLs saved to database.');
+  await bucket.upload(tempLocalThumbFile, { destination: thumbFilePath, metadata: metadata, predefinedAcl: 'publicRead' }).then(result => {
+    functions.logger.log('Thumbnail uploaded to Storage at', thumbFilePath);
+    functions.logger.log('Got Signed URLs.');
+    const file = result[0];
+    return file.getMetadata();
+  }).then(results => {
+    const metadata = results[0];
+    functions.logger.log('metadata=', metadata.mediaLink);
+    // Add the URLs to the Database
+    admin.database().ref('images').push({ name: fileName, thumbnail: metadata.mediaLink });
+    return functions.logger.log('Thumbnail URLs saved to database.');
+  }).catch(error => {
+    functions.logger.log(error);
+  });
 });
