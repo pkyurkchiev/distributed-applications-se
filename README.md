@@ -3,7 +3,6 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## POLL
-* [link](https://forms.gle/CwX8sjhRBKuxMD1QA)
 
 
 ## Roundmap
