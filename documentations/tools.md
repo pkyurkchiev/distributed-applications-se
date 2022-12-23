@@ -12,7 +12,7 @@
   
 #
 ### Tools for start the projects
-* Visual Studio 2019 Community Edition
+* Visual Studio 2022 Community Edition
   *  ASP.NET and web development & .NET Core cross-platform development
   * .Net 5 - [link](https://dotnet.microsoft.com/download/dotnet/5.0)
   * .Net Core 3.1 - [link](https://dotnet.microsoft.com/download/dotnet-core/3.1)
