@@ -10,7 +10,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## Old exercises:
-* [2017/2018](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
+* [Link](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises) - on .Net Framework 4.8
 
 
 ## WCF
