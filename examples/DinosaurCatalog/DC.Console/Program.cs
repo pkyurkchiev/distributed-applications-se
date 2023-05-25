@@ -1,7 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-using Firebase.Database;
+﻿using Firebase.Database;
 using Firebase.Database.Query;
+using System;
+using System.Threading.Tasks;
 
 namespace DC.Treminal
 {
@@ -15,7 +15,7 @@ namespace DC.Treminal
         private async Task Run()
         {
             string myproject = "da-test-a98d2";
-            var firebase = new FirebaseClient($"https://{myproject}.firebaseio.com/");
+            FirebaseClient firebase = new($"https://{myproject}.firebaseio.com/");
 
             var dinos = await firebase
               .Child("dinosaurs")

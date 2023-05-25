@@ -93,13 +93,13 @@ namespace AzureCosmosDB.DatabaseManagement
 
         private static async Task DeleteBookAsync(Container container, string bookId, string isbn)
         {
-            ItemResponse<Book> bookResponse = await container.DeleteItemAsync<Book>(bookId, new PartitionKey(isbn));
+            _ = await container.DeleteItemAsync<Book>(bookId, new PartitionKey(isbn));
             Console.WriteLine("Deleted Book [{0}]\n", bookId);
         }
 
         private static async Task DeleteDatabaseAsync(Database database, string databasseId)
         {
-            DatabaseResponse databaseResourceResponse = await database.DeleteAsync();
+            _ = await database.DeleteAsync();
 
             Console.WriteLine("Deleted Database: {0}\n", databasseId);
         }
