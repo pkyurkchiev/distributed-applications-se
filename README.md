@@ -12,7 +12,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## Roundmap
-* [link](https://miro.com/app/board/o9J_lLSa4dg=/?share_link_id=774145796745)
+* [Link](https://miro.com/app/board/o9J_lLSa4dg=/?share_link_id=774145796745)
 
 
 ## Exercises:
@@ -20,7 +20,7 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## WCF
-* Authentication - [link 1](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-authenticate-with-a-user-name-and-password?fbclid=IwAR2dwCDPFCpg4yDVMe2aCWaqE_JaDNKKyXGypmjVOYVxImQ_-7tqUrnUaTI), [link 2](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-use-a-custom-user-name-and-password-validator?fbclid=IwAR2fo0ByIoWfjYwteldH1xenNNelPC1G_FMMDDWf47IWy4IpyU10COuDCZo)
+* Authentication - [Link 1](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-authenticate-with-a-user-name-and-password?fbclid=IwAR2dwCDPFCpg4yDVMe2aCWaqE_JaDNKKyXGypmjVOYVxImQ_-7tqUrnUaTI), [Link 2](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-use-a-custom-user-name-and-password-validator?fbclid=IwAR2fo0ByIoWfjYwteldH1xenNNelPC1G_FMMDDWf47IWy4IpyU10COuDCZo)
 
 
 ## Exercises documentation:
