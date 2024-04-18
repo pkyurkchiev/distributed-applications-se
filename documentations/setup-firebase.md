@@ -7,7 +7,7 @@ Setup Google Firebase
 ### Steps
 
 * Step One - install nodejs: 
-  * [Download link](http://nodejs.org)
+  * [Download link](http://www.nodejs.org)
 
 
   

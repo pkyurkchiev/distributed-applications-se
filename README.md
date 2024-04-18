@@ -5,12 +5,18 @@ This repository is part of the distributed applications course for Software Engi
 ## POLL
 
 
+#
+### Course assignment:
+* [Task](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/course-work/README.md)
+* [Assessment Requirements](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/assessment-requirements.md)
+
+
 ## Roundmap
 * [link](https://miro.com/app/board/o9J_lLSa4dg=/?share_link_id=774145796745)
 
 
-## Old exercises:
-* [Link](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises) - on .Net Framework 4.8
+## Exercises:
+* [Link](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/exercises)
 
 
 ## WCF
