@@ -1,0 +1,470 @@
+2024-05-07 08:21:36.596 +03:00 [INF] Application is starting!
+2024-05-07 08:21:38.565 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 08:21:38.571 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 08:21:38.573 +03:00 [INF] Hosting environment: Development
+2024-05-07 08:21:38.574 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 08:21:40.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 08:21:40.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 301 0 - 226.6376ms
+2024-05-07 08:21:40.300 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 08:21:40.795 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 494.4143ms
+2024-05-07 08:21:40.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-07 08:21:40.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:21:40.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:21:40.902 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:21:40.903 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 08:21:40.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 22.6057ms
+2024-05-07 08:21:41.101 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:21:41.101 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:21:41.112 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 234.1260ms
+2024-05-07 08:21:41.110 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:21:41.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 253.9986ms
+2024-05-07 08:21:41.122 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 243.4888ms
+2024-05-07 08:21:41.141 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 238.4421ms
+2024-05-07 08:21:41.346 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-07 08:21:41.348 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-07 08:21:41.351 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 4.5953ms
+2024-05-07 08:21:41.451 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 08:21:41.696 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.9780ms
+2024-05-07 08:21:42.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2024-05-07 08:21:42.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 404 0 - 15.5974ms
+2024-05-07 08:21:42.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - -
+2024-05-07 08:21:42.414 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - - - 404 0 - 8.5298ms
+2024-05-07 08:21:58.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2024-05-07 08:21:58.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 404 0 - 2.4026ms
+2024-05-07 08:22:09.080 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2024-05-07 08:22:09.083 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 404 0 - 2.7406ms
+2024-05-07 08:22:16.723 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/ - -
+2024-05-07 08:22:16.726 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/ - - - 301 0 - 3.1407ms
+2024-05-07 08:22:16.737 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 08:22:16.755 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 17.7273ms
+2024-05-07 08:22:16.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 08:22:16.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:22:16.814 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 5.4570ms
+2024-05-07 08:22:16.818 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.6286ms
+2024-05-07 08:22:17.103 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 08:22:17.119 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 15.3977ms
+2024-05-07 08:22:28.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - -
+2024-05-07 08:22:28.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - - - 404 0 - 2.7108ms
+2024-05-07 08:24:53.248 +03:00 [INF] Application is starting!
+2024-05-07 08:24:54.494 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 08:24:54.501 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 08:24:54.505 +03:00 [INF] Hosting environment: Development
+2024-05-07 08:24:54.506 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 08:24:55.549 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 08:24:55.636 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 08:24:55.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 168.3226ms
+2024-05-07 08:24:55.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 08:24:56.040 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 404.3907ms
+2024-05-07 08:24:56.040 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 130.2355ms
+2024-05-07 08:24:56.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:24:56.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 08:24:56.107 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 10.9713ms
+2024-05-07 08:24:56.136 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.5769ms
+2024-05-07 08:24:56.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-07 08:24:56.185 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:24:56.185 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:24:56.192 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 08:24:56.196 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 08:24:56.261 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 65.2301ms
+2024-05-07 08:24:56.300 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:24:56.300 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:24:56.304 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 127.4402ms
+2024-05-07 08:24:56.300 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:24:56.318 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 125.5653ms
+2024-05-07 08:24:56.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 151.1002ms
+2024-05-07 08:24:56.340 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 155.5521ms
+2024-05-07 08:24:56.588 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 08:24:56.750 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 08:24:56.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 334.3761ms
+2024-05-07 08:24:56.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.7543ms
+2024-05-07 10:52:31.275 +03:00 [INF] Application is starting!
+2024-05-07 10:52:32.334 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+2024-05-07 10:53:28.726 +03:00 [INF] Application is starting!
+2024-05-07 10:53:29.445 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+2024-05-07 10:54:31.737 +03:00 [INF] Application is starting!
+2024-05-07 10:54:32.590 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:54:38.677 +03:00 [INF] Application is starting!
+2024-05-07 10:54:39.604 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:55:00.406 +03:00 [INF] Application is starting!
+2024-05-07 10:55:01.078 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:56:20.326 +03:00 [INF] Application is starting!
+2024-05-07 10:56:21.060 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:57:17.701 +03:00 [INF] Application is starting!
+2024-05-07 10:57:18.337 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+2024-05-07 10:57:52.901 +03:00 [INF] Application is starting!
+2024-05-07 10:57:53.783 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:58:39.522 +03:00 [INF] Application is starting!
+2024-05-07 10:58:40.307 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.) (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Transient ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IUnitOfWork Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.UnitOfWork': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.UnitOfWork'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2024-05-07 10:59:42.275 +03:00 [INF] Application is starting!
+2024-05-07 10:59:44.022 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 10:59:44.030 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 10:59:44.031 +03:00 [INF] Hosting environment: Development
+2024-05-07 10:59:44.033 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 10:59:45.426 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 10:59:45.528 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 10:59:45.622 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 197.2896ms
+2024-05-07 10:59:45.954 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 425.6116ms
+2024-05-07 10:59:46.059 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 10:59:46.247 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 10:59:46.376 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 316.2844ms
+2024-05-07 10:59:46.445 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 198.6091ms
+2024-05-07 10:59:46.481 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-07 10:59:46.527 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-07 10:59:46.532 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 51.3757ms
+2024-05-07 10:59:46.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 10:59:46.899 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 276.1018ms
+2024-05-07 11:00:12.032 +03:00 [INF] Application is starting!
+2024-05-07 11:00:13.244 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 11:00:13.254 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 11:00:13.259 +03:00 [INF] Hosting environment: Development
+2024-05-07 11:00:13.260 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 11:00:14.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 11:00:14.276 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 11:00:14.346 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 171.1089ms
+2024-05-07 11:00:14.614 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 341.6339ms
+2024-05-07 11:00:14.668 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 11:00:14.681 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 11:00:14.722 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 53.2692ms
+2024-05-07 11:00:14.779 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 97.6896ms
+2024-05-07 11:00:14.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 11:00:15.235 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.0470ms
+2024-05-07 11:00:18.438 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-07 11:00:18.444 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 11:00:18.487 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 11:00:22.164 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn]
+FROM [Genres] AS [g]
+2024-05-07 11:00:22.264 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.GetGenresResponse'.
+2024-05-07 11:00:22.281 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 3783.7553ms
+2024-05-07 11:00:22.285 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 11:00:22.296 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 200 - application/json;+charset=utf-8 3858.4566ms
+2024-05-07 11:00:58.627 +03:00 [INF] Application is starting!
+2024-05-07 11:00:59.108 +03:00 [FTL] Unhandled exception!
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MC.Repositories.Interfaces.IMoviesRepository Lifetime: Scoped ImplementationType: MC.Repositories.Implementations.MoviesRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'MC.Repositories.Implementations.MoviesRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Program.cs:line 68
+2024-05-07 11:02:17.494 +03:00 [INF] Application is starting!
+2024-05-07 11:02:18.731 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 11:02:18.737 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 11:02:18.739 +03:00 [INF] Hosting environment: Development
+2024-05-07 11:02:18.740 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 11:02:19.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 11:02:20.038 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 11:02:20.143 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 184.6670ms
+2024-05-07 11:02:20.414 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 378.3624ms
+2024-05-07 11:02:20.469 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 11:02:20.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 11:02:20.496 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 27.0695ms
+2024-05-07 11:02:20.567 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.8692ms
+2024-05-07 11:02:20.771 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 11:02:21.126 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 354.6023ms
+2024-05-07 12:18:53.610 +03:00 [INF] Application is starting!
+2024-05-07 12:18:54.460 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-07 12:18:54.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-07 12:18:54.472 +03:00 [INF] Hosting environment: Development
+2024-05-07 12:18:54.474 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-07 12:18:55.447 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-07 12:18:55.544 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-07 12:18:55.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 170.4602ms
+2024-05-07 12:18:55.882 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 338.5650ms
+2024-05-07 12:18:55.921 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-07 12:18:55.927 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-07 12:18:55.932 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 10.1470ms
+2024-05-07 12:18:55.992 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.6943ms
+2024-05-07 12:18:56.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-07 12:18:56.187 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-07 12:18:56.191 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 44.9865ms
+2024-05-07 12:18:56.262 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-07 12:18:56.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 344.9609ms
+2024-05-07 12:19:00.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-07 12:19:00.039 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:19:00.063 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 12:19:02.470 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn]
+FROM [Genres] AS [g]
+WHERE [g].[IsActivated] = @__isActive_Value_0
+2024-05-07 12:19:02.562 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.GetGenresResponse'.
+2024-05-07 12:19:02.581 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 2507.2409ms
+2024-05-07 12:19:02.586 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:19:02.594 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 200 - application/json;+charset=utf-8 2564.0828ms
+2024-05-07 12:19:10.909 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/Genres application/json 20
+2024-05-07 12:19:10.913 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-07 12:19:10.926 +03:00 [INF] Route matched with {action = "Create", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MC.ApplicationServices.Messaging.Requests.GenreModel) on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 12:19:11.198 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Genres] ([CreatedBy], [CreatedOn], [IsActivated], [Name], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-07 12:19:11.231 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.CreateGenreResponse'.
+2024-05-07 12:19:11.238 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI) in 307.5959ms
+2024-05-07 12:19:11.242 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-07 12:19:11.243 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/Genres application/json 20 - 200 - application/json;+charset=utf-8 334.4253ms
+2024-05-07 12:19:20.137 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-07 12:19:20.139 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:19:20.142 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 12:19:20.175 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn]
+FROM [Genres] AS [g]
+WHERE [g].[IsActivated] = @__isActive_Value_0
+2024-05-07 12:19:20.180 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.GetGenresResponse'.
+2024-05-07 12:19:20.181 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 35.2029ms
+2024-05-07 12:19:20.183 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:19:20.186 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 200 - application/json;+charset=utf-8 49.4568ms
+2024-05-07 12:37:33.933 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/Genres application/json 22
+2024-05-07 12:37:33.938 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-07 12:37:33.939 +03:00 [INF] Route matched with {action = "Create", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MC.ApplicationServices.Messaging.Requests.GenreModel) on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 12:37:35.004 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Genres] ([CreatedBy], [CreatedOn], [IsActivated], [Name], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-07 12:37:35.010 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.CreateGenreResponse'.
+2024-05-07 12:37:35.013 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI) in 1071.4771ms
+2024-05-07 12:37:35.015 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-07 12:37:35.017 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/Genres application/json 22 - 200 - application/json;+charset=utf-8 1087.7212ms
+2024-05-07 12:37:39.934 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-07 12:37:39.937 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:37:39.939 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-07 12:37:39.946 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn]
+FROM [Genres] AS [g]
+WHERE [g].[IsActivated] = @__isActive_Value_0
+2024-05-07 12:37:39.952 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.GetGenresResponse'.
+2024-05-07 12:37:39.954 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 12.9023ms
+2024-05-07 12:37:39.956 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-07 12:37:39.957 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 200 - application/json;+charset=utf-8 23.0548ms
