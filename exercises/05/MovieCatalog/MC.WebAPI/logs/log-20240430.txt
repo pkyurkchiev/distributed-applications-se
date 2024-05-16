@@ -1,0 +1,29 @@
+2024-04-30 11:47:43.000 +03:00 [INF] Application is starting!
+2024-04-30 11:47:44.240 +03:00 [INF] Now listening on: http://localhost:5004
+2024-04-30 11:47:44.248 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-30 11:47:44.250 +03:00 [INF] Hosting environment: Development
+2024-04-30 11:47:44.253 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-04-30 11:47:44.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-04-30 11:47:45.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 426.3579ms
+2024-04-30 11:47:45.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-04-30 11:47:45.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.8251ms
+2024-04-30 11:47:45.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-04-30 11:47:45.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.7409ms
+2024-04-30 11:47:45.299 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-04-30 11:47:45.315 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-30 11:47:45.317 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 17.8732ms
+2024-04-30 11:47:45.391 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-04-30 11:47:45.697 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 305.6375ms
+2024-04-30 11:48:17.984 +03:00 [INF] Application is starting!
+2024-04-30 11:48:19.203 +03:00 [INF] Now listening on: http://localhost:5004
+2024-04-30 11:48:19.211 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-30 11:48:19.215 +03:00 [INF] Hosting environment: Development
+2024-04-30 11:48:19.215 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-04-30 11:48:19.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-04-30 11:48:20.144 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 367.3842ms
+2024-04-30 11:48:20.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-04-30 11:48:20.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-04-30 11:48:20.189 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 13.7528ms
+2024-04-30 11:48:20.217 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.0189ms
+2024-04-30 11:48:20.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-04-30 11:48:20.588 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.5160ms
