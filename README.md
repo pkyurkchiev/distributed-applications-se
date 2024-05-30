@@ -3,10 +3,10 @@ This repository is part of the distributed applications course for Software Engi
 
 
 ## POLL
+* [Link](https://forms.gle/3mWHRhMj5faPnr6a6)
 
 
-#
-### Course assignment:
+## Course assignment:
 * [Task](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/course-work/README.md)
 * [Assessment Requirements](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/assessment-requirements.md)
 
