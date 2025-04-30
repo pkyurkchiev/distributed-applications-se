@@ -1,5 +1,8 @@
 ## Introduction to Distributed applications
 <sup>This repository is part of the **Distributed applications** for part time students of Software Engineering at Plovdiv University.</sup>\
+This course is designed to provide an overview of the principles and practices involved in building distributed applications. It emphasizes the importance of creating robust distributed applications that align with program specifications for software projects.
+
+Participants will also explore the theory and formal processes of application architecture and the development of modern applications. The course covers modern distributed architectures, including SOA, Microservices, Client-Server, and N-Tier, as well as technologies such as RESTful, SOAP, gRPC, and GraphQL web services. By the end of the course, students will be equipped with the knowledge and skills to design, develop, and deploy scalable and secure distributed systems.
 
 ## POLL
 
