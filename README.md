@@ -4,7 +4,7 @@ This course is designed to provide an overview of the principles and practices i
 
 Participants will also explore the theory and formal processes of application architecture and the development of modern applications. The course covers modern distributed architectures, including SOA, Microservices, Client-Server, and N-Tier, as well as technologies such as RESTful, SOAP, gRPC, and GraphQL web services. By the end of the course, students will be equipped with the knowledge and skills to design, develop, and deploy scalable and secure distributed systems.
 
-## POLL
+### POLL
 
 ### Competencies
 Upon successful completion of this course, participants will:
