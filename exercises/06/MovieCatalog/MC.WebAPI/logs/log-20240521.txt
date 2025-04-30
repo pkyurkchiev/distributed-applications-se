@@ -1,0 +1,723 @@
+2024-05-21 10:46:24.997 +03:00 [INF] Application is starting!
+2024-05-21 10:46:27.601 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 10:46:27.744 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 10:46:27.748 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 10:46:27.750 +03:00 [INF] Hosting environment: Development
+2024-05-21 10:46:27.751 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-21 10:46:28.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-21 10:46:28.386 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 301 0 - 222.0087ms
+2024-05-21 10:46:28.392 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 10:46:28.620 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 228.5449ms
+2024-05-21 10:46:28.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-21 10:46:28.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-21 10:46:28.653 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 10:46:28.651 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-21 10:46:28.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 10:46:28.672 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 18.0844ms
+2024-05-21 10:46:28.689 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8007ms
+2024-05-21 10:46:28.709 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-21 10:46:28.709 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-21 10:46:28.713 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 72.2042ms
+2024-05-21 10:46:28.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 65.2251ms
+2024-05-21 10:46:28.719 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-21 10:46:28.723 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 80.4092ms
+2024-05-21 10:46:28.873 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-21 10:46:28.875 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-21 10:46:28.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 9.0585ms
+2024-05-21 10:46:28.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 10:46:29.212 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 250.0173ms
+2024-05-21 10:49:32.000 +03:00 [INF] Application is starting!
+2024-05-21 10:49:34.047 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 10:49:34.181 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 10:49:34.185 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 10:49:34.187 +03:00 [INF] Hosting environment: Development
+2024-05-21 10:49:34.188 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-21 10:49:34.804 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 10:49:35.256 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 462.6543ms
+2024-05-21 10:49:35.282 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 10:49:35.283 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 10:49:35.286 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 4.0191ms
+2024-05-21 10:49:35.305 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9850ms
+2024-05-21 10:49:35.778 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 10:49:35.960 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.4321ms
+2024-05-21 17:20:25.495 +03:00 [INF] Application is starting!
+2024-05-21 17:20:27.199 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:20:27.708 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:20:27.712 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:20:27.713 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:20:27.714 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:20:28.305 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-21 17:20:28.596 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 301 0 - 293.8255ms
+2024-05-21 17:20:28.604 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:20:28.773 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 168.0492ms
+2024-05-21 17:20:28.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-21 17:20:28.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-21 17:20:28.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:20:28.861 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:20:28.870 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 13.3484ms
+2024-05-21 17:20:28.911 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-21 17:20:28.911 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-21 17:20:28.958 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 138.5998ms
+2024-05-21 17:20:28.863 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-21 17:20:28.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 152.4778ms
+2024-05-21 17:20:28.977 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-21 17:20:28.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 116.9943ms
+2024-05-21 17:20:28.998 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 135.9051ms
+2024-05-21 17:20:29.144 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:20:29.170 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-21 17:20:29.225 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-21 17:20:29.280 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 109.5202ms
+2024-05-21 17:20:29.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 189.1995ms
+2024-05-21 17:22:14.752 +03:00 [INF] Application is starting!
+2024-05-21 17:22:15.746 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:22:15.918 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:22:15.921 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:22:15.925 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:22:15.926 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:22:16.510 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:22:16.887 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 379.2440ms
+2024-05-21 17:22:16.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:22:16.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.3326ms
+2024-05-21 17:22:16.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:22:16.989 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.6111ms
+2024-05-21 17:22:17.193 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:22:17.360 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.7316ms
+2024-05-21 17:40:40.800 +03:00 [INF] Application is starting!
+2024-05-21 17:40:42.061 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:40:42.317 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:40:42.331 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:40:42.362 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:40:42.375 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:40:42.758 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-21 17:40:43.030 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 301 0 - 274.4924ms
+2024-05-21 17:40:43.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:40:43.188 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-21 17:40:43.192 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-21 17:40:43.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 158.3896ms
+2024-05-21 17:40:43.190 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-21 17:40:43.193 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:40:43.196 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:40:43.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 6.3213ms
+2024-05-21 17:40:43.227 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-21 17:40:43.227 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-21 17:40:43.244 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 51.8194ms
+2024-05-21 17:40:43.240 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-21 17:40:43.244 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 56.7447ms
+2024-05-21 17:40:43.248 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 59.4112ms
+2024-05-21 17:40:43.261 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.4993ms
+2024-05-21 17:40:43.470 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:40:43.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-21 17:40:43.531 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-21 17:40:43.535 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 10.2987ms
+2024-05-21 17:40:43.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 236.2210ms
+2024-05-21 17:41:32.185 +03:00 [INF] Application is starting!
+2024-05-21 17:41:33.137 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:41:33.397 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:41:33.400 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:41:33.401 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:41:33.410 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:41:33.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:41:34.327 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:41:34.328 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 368.1497ms
+2024-05-21 17:41:34.355 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 28.0690ms
+2024-05-21 17:41:34.356 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:41:34.393 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.0000ms
+2024-05-21 17:41:34.535 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:41:34.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.8910ms
+2024-05-21 17:43:10.201 +03:00 [INF] Application is starting!
+2024-05-21 17:43:11.661 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:43:12.440 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:43:12.679 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:43:12.684 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:43:12.686 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:43:13.194 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:43:13.589 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 397.6002ms
+2024-05-21 17:43:13.608 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:43:13.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:43:13.690 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 77.5539ms
+2024-05-21 17:43:13.748 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.4223ms
+2024-05-21 17:43:13.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:43:14.023 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 212.9794ms
+2024-05-21 17:44:20.066 +03:00 [INF] Application is starting!
+2024-05-21 17:44:20.201 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Program.cs:line 117
+2024-05-21 17:45:13.788 +03:00 [INF] Application is starting!
+2024-05-21 17:45:13.922 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Program.cs:line 117
+2024-05-21 17:45:26.518 +03:00 [INF] Application is starting!
+2024-05-21 17:45:26.651 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Program.cs:line 117
+2024-05-21 17:46:22.370 +03:00 [INF] Application is starting!
+2024-05-21 17:46:22.502 +03:00 [FTL] Unhandled exception!
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Program.cs:line 117
+2024-05-21 17:48:37.363 +03:00 [INF] Application is starting!
+2024-05-21 17:48:38.237 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:48:38.457 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:48:38.461 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:48:38.463 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:48:38.464 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:48:39.013 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:48:39.396 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 382.3342ms
+2024-05-21 17:48:39.398 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:48:39.405 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 7.0584ms
+2024-05-21 17:48:39.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:48:39.448 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.8136ms
+2024-05-21 17:48:39.497 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:48:39.668 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 171.2778ms
+2024-05-21 17:48:46.577 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - -
+2024-05-21 17:48:46.692 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-21 17:48:46.700 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-21 17:48:46.703 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - - - 401 0 - 126.6071ms
+2024-05-21 17:48:57.440 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-21 17:48:57.449 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 17:48:57.485 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 17:48:57.588 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 17:48:57.607 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 114.1947ms
+2024-05-21 17:48:57.613 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 17:48:57.616 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 176.3238ms
+2024-05-21 17:49:10.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - -
+2024-05-21 17:49:10.247 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 17:49:10.253 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 17:49:11.671 +03:00 [INF] Executed DbCommand (52ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-21 17:49:11.703 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-21 17:49:11.714 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 1455.6353ms
+2024-05-21 17:49:11.716 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 17:49:11.724 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - - - 200 - application/json;+charset=utf-8 1538.6994ms
+2024-05-21 17:49:18.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-21 17:49:18.274 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-21 17:49:18.291 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-21 17:49:18.302 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 6.6755ms
+2024-05-21 17:49:18.306 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-21 17:49:18.310 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MC.ApplicationServices.Interfaces.IGenresManagementService' while attempting to activate 'MC.WebAPI.Controllers.GenresController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method38(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-21 17:49:18.333 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 500 - text/plain;+charset=utf-8 62.3299ms
+2024-05-21 17:50:08.713 +03:00 [INF] Application is starting!
+2024-05-21 17:50:09.571 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:50:09.776 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:50:09.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:50:09.794 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:50:09.796 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:50:10.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:50:10.669 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 380.7758ms
+2024-05-21 17:50:10.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:50:10.678 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:50:10.682 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.3435ms
+2024-05-21 17:50:10.707 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.9186ms
+2024-05-21 17:50:10.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:50:10.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.2104ms
+2024-05-21 17:50:24.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-21 17:50:24.379 +03:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2024-05-21 17:50:24.385 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 17:50:24.417 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 17:50:24.483 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 17:50:24.502 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 78.838ms
+2024-05-21 17:50:24.507 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 17:50:24.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 217.4470ms
+2024-05-21 17:50:36.848 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Genres - -
+2024-05-21 17:50:36.893 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-21 17:50:36.899 +03:00 [INF] Route matched with {action = "Get", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-21 17:50:38.231 +03:00 [INF] Executed DbCommand (46ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn]
+FROM [Genres] AS [g]
+WHERE [g].[IsActivated] = @__isActive_Value_0
+2024-05-21 17:50:38.275 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Genres.GetGenresResponse'.
+2024-05-21 17:50:38.281 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI) in 1378.9664ms
+2024-05-21 17:50:38.283 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Get (MC.WebAPI)'
+2024-05-21 17:50:38.291 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Genres - - - 200 - application/json;+charset=utf-8 1443.5412ms
+2024-05-21 17:52:06.359 +03:00 [INF] Application is starting!
+2024-05-21 17:52:07.307 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:52:07.680 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:52:07.683 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:52:07.685 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:52:07.686 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:52:08.100 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:52:08.473 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 379.2938ms
+2024-05-21 17:52:08.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:52:08.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:52:08.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 52.8640ms
+2024-05-21 17:52:08.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.5706ms
+2024-05-21 17:52:08.600 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:52:08.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.0987ms
+2024-05-21 17:53:30.548 +03:00 [INF] Application is starting!
+2024-05-21 17:53:31.574 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:53:31.788 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:53:31.794 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:53:31.795 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:53:31.796 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:53:32.504 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:53:32.872 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 370.5361ms
+2024-05-21 17:53:32.875 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:53:32.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:53:32.887 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 2.9423ms
+2024-05-21 17:53:32.925 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.6250ms
+2024-05-21 17:53:32.998 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:53:33.200 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.9899ms
+2024-05-21 17:54:26.566 +03:00 [INF] Application is starting!
+2024-05-21 17:54:27.516 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:54:27.693 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:54:27.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:54:27.698 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:54:27.698 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:54:28.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:54:28.769 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:54:28.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 365.0037ms
+2024-05-21 17:54:28.779 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:54:28.788 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.2042ms
+2024-05-21 17:54:28.818 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.3905ms
+2024-05-21 17:54:28.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:54:29.029 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.0935ms
+2024-05-21 17:56:50.275 +03:00 [INF] Application is starting!
+2024-05-21 17:56:51.253 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 17:56:51.433 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 17:56:51.435 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 17:56:51.437 +03:00 [INF] Hosting environment: Development
+2024-05-21 17:56:51.438 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 17:56:52.081 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-21 17:56:52.417 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-21 17:56:52.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-21 17:56:52.421 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.8053ms
+2024-05-21 17:56:52.418 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 332.3419ms
+2024-05-21 17:56:52.461 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.1164ms
+2024-05-21 17:56:52.517 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-21 17:56:52.695 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.0644ms
+2024-05-21 20:09:05.187 +03:00 [INF] Application is starting!
+2024-05-21 20:09:06.173 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 20:09:06.351 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 20:09:06.396 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 20:09:06.437 +03:00 [INF] Hosting environment: Development
+2024-05-21 20:09:06.438 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 20:09:06.690 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-05-21 20:09:07.023 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 337.9475ms
+2024-05-21 20:09:07.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - null null
+2024-05-21 20:09:07.065 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 20:09:07.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 21.3541ms
+2024-05-21 20:09:07.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.7065ms
+2024-05-21 20:09:07.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-05-21 20:09:07.404 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.4814ms
+2024-05-21 20:38:02.723 +03:00 [INF] Application is starting!
+2024-05-21 20:38:04.471 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 20:38:04.643 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 20:38:04.645 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 20:38:04.646 +03:00 [INF] Hosting environment: Development
+2024-05-21 20:38:04.647 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 20:38:05.317 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-05-21 20:38:05.542 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 229.2637ms
+2024-05-21 20:38:05.550 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - null null
+2024-05-21 20:38:05.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 20:38:05.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 7.5461ms
+2024-05-21 20:38:05.601 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.6359ms
+2024-05-21 20:38:05.653 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-05-21 20:38:05.830 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.4851ms
+2024-05-21 20:38:33.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - null null
+2024-05-21 20:38:34.076 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:38:34.097 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 20:38:34.160 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 20:38:34.175 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 71.0365ms
+2024-05-21 20:38:34.177 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:38:34.178 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - 200 null application/json; charset=utf-8 216.0814ms
+2024-05-21 20:39:30.447 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/Movies - application/json 147
+2024-05-21 20:39:30.510 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI)'
+2024-05-21 20:39:30.515 +03:00 [INF] Route matched with {action = "CreateMovie", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateMovie(MC.Infrastructure.Messaging.Requests.Movies.MovieModel) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:39:32.818 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Movies] ([Country], [CreatedBy], [CreatedOn], [GenreId], [IsActivated], [RatingId], [ReleaseDate], [Studio], [Title], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2024-05-21 20:39:32.869 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MC.Data.Contexts.MovieCatalogDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Genres_GenreId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Genres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Genres_GenreId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Genres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-05-21 20:39:33.132 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI) in 2610.9879ms
+2024-05-21 20:39:33.134 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI)'
+2024-05-21 20:39:33.142 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Genres_GenreId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Genres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MC.Repositories.Implementations.UnitOfWork.SaveChangesAsync() in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.Repositories\Implementations\UnitOfWork.cs:line 33
+   at MC.ApplicationServices.Implementations.MoviesManagementService.CreateMovie(CreateMovieRequest request) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.ApplicationServices\Implementations\MoviesManagementService.cs:line 61
+   at MC.WebAPI.Controllers.MoviesController.CreateMovie(MovieModel movie) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Controllers\MoviesController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-21 20:39:33.204 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/Movies - 500 null text/plain; charset=utf-8 2756.5233ms
+2024-05-21 20:39:41.178 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/Genres - application/json 22
+2024-05-21 20:39:41.188 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-21 20:39:41.194 +03:00 [INF] Route matched with {action = "Create", controller = "Genres"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MC.Infrastructure.Messaging.Requests.Genres.GenreModel) on controller MC.WebAPI.Controllers.GenresController (MC.WebAPI).
+2024-05-21 20:39:41.283 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Genres] ([CreatedBy], [CreatedOn], [IsActivated], [Name], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-21 20:39:41.311 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Genres.CreateGenreResponse'.
+2024-05-21 20:39:41.314 +03:00 [INF] Executed action MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI) in 115.71ms
+2024-05-21 20:39:41.316 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.GenresController.Create (MC.WebAPI)'
+2024-05-21 20:39:41.317 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/Genres - 200 null application/json; charset=utf-8 138.9167ms
+2024-05-21 20:39:50.831 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/Movies - application/json 147
+2024-05-21 20:39:50.835 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI)'
+2024-05-21 20:39:50.839 +03:00 [INF] Route matched with {action = "CreateMovie", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateMovie(MC.Infrastructure.Messaging.Requests.Movies.MovieModel) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:39:50.856 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = Boolean), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime2), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = Int32), @p10='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Movies] ([Country], [CreatedBy], [CreatedOn], [GenreId], [IsActivated], [RatingId], [ReleaseDate], [Studio], [Title], [UpdatedBy], [UpdatedOn])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10);
+2024-05-21 20:39:50.863 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MC.Data.Contexts.MovieCatalogDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Ratings_RatingId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Ratings", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Ratings_RatingId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Ratings", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-05-21 20:39:51.056 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI) in 213.4454ms
+2024-05-21 20:39:51.057 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.CreateMovie (MC.WebAPI)'
+2024-05-21 20:39:51.059 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Movies_Ratings_RatingId". The conflict occurred in database "MovieCatalogDatabase", table "dbo.Ratings", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:5fd0b783-76ef-4fd4-ba7c-8299a28b01a8
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MC.Repositories.Implementations.UnitOfWork.SaveChangesAsync() in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.Repositories\Implementations\UnitOfWork.cs:line 33
+   at MC.ApplicationServices.Implementations.MoviesManagementService.CreateMovie(CreateMovieRequest request) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.ApplicationServices\Implementations\MoviesManagementService.cs:line 61
+   at MC.WebAPI.Controllers.MoviesController.CreateMovie(MovieModel movie) in C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI\Controllers\MoviesController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-21 20:39:51.086 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/Movies - 500 null text/plain; charset=utf-8 255.4567ms
+2024-05-21 20:42:10.096 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-05-21 20:42:10.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 18.7923ms
+2024-05-21 20:42:10.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 20:42:10.135 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - null null
+2024-05-21 20:42:10.138 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 3.5169ms
+2024-05-21 20:42:10.146 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.3216ms
+2024-05-21 20:42:10.335 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-05-21 20:42:10.358 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.0578ms
+2024-05-21 20:43:08.440 +03:00 [INF] Application is starting!
+2024-05-21 20:43:09.381 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 20:43:09.594 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 20:43:09.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 20:43:09.598 +03:00 [INF] Hosting environment: Development
+2024-05-21 20:43:09.599 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 20:43:10.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-05-21 20:43:10.479 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 299.2193ms
+2024-05-21 20:43:10.492 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - null null
+2024-05-21 20:43:10.500 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 20:43:10.526 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 26.138ms
+2024-05-21 20:43:10.554 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.8733ms
+2024-05-21 20:43:10.727 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-05-21 20:43:10.910 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.6526ms
+2024-05-21 20:43:15.364 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - null null
+2024-05-21 20:43:15.430 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:43:15.452 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 20:43:15.505 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 20:43:15.522 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 61.8822ms
+2024-05-21 20:43:15.525 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:43:15.527 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - 200 null application/json; charset=utf-8 163.5105ms
+2024-05-21 20:43:15.559 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - null null
+2024-05-21 20:43:15.600 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:43:15.606 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:43:17.017 +03:00 [INF] Executed DbCommand (50ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-21 20:43:17.044 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-21 20:43:17.058 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 1447.7449ms
+2024-05-21 20:43:17.062 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:43:17.069 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - 200 null application/json; charset=utf-8 1510.4456ms
+2024-05-21 20:43:47.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - null null
+2024-05-21 20:43:47.422 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:43:47.427 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 20:43:47.432 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 20:43:47.434 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 2.9475ms
+2024-05-21 20:43:47.436 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:43:47.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - 200 null application/json; charset=utf-8 29.7087ms
+2024-05-21 20:44:00.256 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - null null
+2024-05-21 20:44:00.269 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:44:00.272 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:44:00.327 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-21 20:44:00.331 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-21 20:44:00.333 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 57.5662ms
+2024-05-21 20:44:00.335 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:44:00.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - 200 null application/json; charset=utf-8 80.9367ms
+2024-05-21 20:44:18.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - null null
+2024-05-21 20:44:18.994 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:44:18.996 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 20:44:18.998 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 20:44:19.000 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 2.0027ms
+2024-05-21 20:44:19.001 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:44:19.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - 200 null application/json; charset=utf-8 11.4637ms
+2024-05-21 20:44:19.006 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - null null
+2024-05-21 20:44:19.014 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:44:19.015 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:44:19.033 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-21 20:44:19.037 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-21 20:44:19.039 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 20.7952ms
+2024-05-21 20:44:19.041 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:44:19.042 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - 200 null application/json; charset=utf-8 36.1038ms
+2024-05-21 20:46:39.454 +03:00 [INF] Application is starting!
+2024-05-21 20:46:40.326 +03:00 [INF] User profile is available. Using 'C:\Users\Pavel Kyurkchiev\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-21 20:46:40.510 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-21 20:46:40.513 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-21 20:46:40.515 +03:00 [INF] Hosting environment: Development
+2024-05-21 20:46:40.516 +03:00 [INF] Content root path: C:\Users\Pavel Kyurkchiev\Desktop\MovieCatalog\MC.WebAPI
+2024-05-21 20:46:41.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-05-21 20:46:41.372 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 318.1915ms
+2024-05-21 20:46:41.382 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-21 20:46:41.387 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 5.0585ms
+2024-05-21 20:46:41.395 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - null null
+2024-05-21 20:46:41.464 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.4243ms
+2024-05-21 20:46:41.595 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-05-21 20:46:41.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.412ms
+2024-05-21 20:46:49.341 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - null null
+2024-05-21 20:46:49.412 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:46:49.436 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-21 20:46:49.489 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-21 20:46:49.503 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 62.4439ms
+2024-05-21 20:46:49.505 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-21 20:46:49.506 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - 200 null application/json; charset=utf-8 165.3286ms
+2024-05-21 20:46:49.536 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - null null
+2024-05-21 20:46:49.582 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:46:49.587 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-21 20:46:50.993 +03:00 [INF] Executed DbCommand (51ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-21 20:46:51.020 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-21 20:46:51.032 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 1443.1556ms
+2024-05-21 20:46:51.035 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-21 20:46:51.043 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - 200 null application/json; charset=utf-8 1506.611ms

@@ -1,0 +1,808 @@
+2024-05-14 08:12:52.307 +03:00 [INF] Application is starting!
+2024-05-14 08:12:54.409 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 08:12:54.414 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 08:12:54.417 +03:00 [INF] Hosting environment: Development
+2024-05-14 08:12:54.418 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 08:12:55.214 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 08:12:55.404 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 301 0 - 193.3760ms
+2024-05-14 08:12:55.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 08:12:55.797 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 386.4259ms
+2024-05-14 08:12:55.825 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - -
+2024-05-14 08:12:55.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2024-05-14 08:12:55.836 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - -
+2024-05-14 08:12:55.838 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 08:12:55.845 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 08:12:55.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 15.2929ms
+2024-05-14 08:12:55.912 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-14 08:12:55.912 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-14 08:12:55.912 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-14 08:12:55.914 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 82.4569ms
+2024-05-14 08:12:55.916 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 80.3526ms
+2024-05-14 08:12:55.918 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - - - 200 144929 text/css 93.8210ms
+2024-05-14 08:12:55.942 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.7320ms
+2024-05-14 08:12:56.088 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 08:12:56.090 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 08:12:56.093 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 4.7222ms
+2024-05-14 08:12:56.189 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 08:12:56.426 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 237.7654ms
+2024-05-14 08:13:13.859 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 08:13:13.887 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 28.0221ms
+2024-05-14 08:13:13.941 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - -
+2024-05-14 08:13:13.949 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - - - 404 0 - 8.1034ms
+2024-05-14 08:13:37.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 08:13:37.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.1339ms
+2024-05-14 09:25:16.269 +03:00 [INF] Application is starting!
+2024-05-14 09:25:18.026 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 09:25:18.095 +03:00 [INF] Creating key {6c2fc46e-fa27-40b3-baf0-9350b4b6c2cf} with creation date 2024-05-14 06:25:18Z, activation date 2024-05-14 06:25:18Z, and expiration date 2024-08-12 06:25:18Z.
+2024-05-14 09:25:18.111 +03:00 [INF] Writing data to file 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys\key-6c2fc46e-fa27-40b3-baf0-9350b4b6c2cf.xml'.
+2024-05-14 09:25:18.302 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 09:25:18.306 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 09:25:18.307 +03:00 [INF] Hosting environment: Development
+2024-05-14 09:25:18.308 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 09:25:19.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 09:25:19.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 09:25:19.354 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 148.8168ms
+2024-05-14 09:25:19.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 416.9061ms
+2024-05-14 09:25:19.642 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 09:25:19.642 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 09:25:19.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 8.8997ms
+2024-05-14 09:25:19.680 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.3461ms
+2024-05-14 09:25:19.803 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 09:25:19.824 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 09:25:19.827 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 24.8956ms
+2024-05-14 09:25:19.886 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 09:25:20.111 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.9021ms
+2024-05-14 09:28:10.918 +03:00 [INF] Application is starting!
+2024-05-14 09:28:12.216 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 09:28:12.433 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 09:28:12.437 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 09:28:12.439 +03:00 [INF] Hosting environment: Development
+2024-05-14 09:28:12.440 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 09:28:13.386 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 09:28:13.880 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 499.3637ms
+2024-05-14 09:28:13.915 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 09:28:13.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 09:28:13.939 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 23.6532ms
+2024-05-14 09:28:13.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.2100ms
+2024-05-14 09:28:14.074 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 09:28:14.093 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 09:28:14.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 21.8042ms
+2024-05-14 09:28:14.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 09:28:14.332 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.9482ms
+2024-05-14 09:28:54.617 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/token?clientId=fmi&secret=fmi - -
+2024-05-14 09:28:55.401 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/token?clientId=fmi&secret=fmi - - - 404 0 - 786.3293ms
+2024-05-14 09:29:11.514 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/token?clientId=fmi&secret=fmi - 0
+2024-05-14 09:29:11.521 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/token?clientId=fmi&secret=fmi - 0 - 404 0 - 7.0290ms
+2024-05-14 09:29:17.390 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/token?clientId=fmi&secret=fmi - 0
+2024-05-14 09:29:17.395 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/token?clientId=fmi&secret=fmi - 0 - 404 0 - 5.0379ms
+2024-05-14 09:29:20.765 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/token?clientId=fmi&secret=fmi - -
+2024-05-14 09:29:20.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/token?clientId=fmi&secret=fmi - - - 404 0 - 4.7284ms
+2024-05-14 10:08:16.426 +03:00 [INF] Application is starting!
+2024-05-14 10:08:17.297 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:08:17.503 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:08:17.507 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:08:17.508 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:08:17.509 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:08:18.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:08:18.592 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 347.3627ms
+2024-05-14 10:08:18.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:08:18.612 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:08:18.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 7.8665ms
+2024-05-14 10:08:18.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.9766ms
+2024-05-14 10:08:18.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 10:08:18.737 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 10:08:18.740 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 28.0218ms
+2024-05-14 10:08:18.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:08:19.019 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 210.0609ms
+2024-05-14 10:08:25.068 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/token?clientId=fmi&secret=fmi - -
+2024-05-14 10:08:25.181 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/token?clientId=fmi&secret=fmi - - - 404 0 - 113.5493ms
+2024-05-14 10:32:47.308 +03:00 [INF] Application is starting!
+2024-05-14 10:32:48.104 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:32:48.247 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:32:48.252 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:32:48.254 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:32:48.255 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:32:50.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:32:50.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 10:32:50.374 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 142.0991ms
+2024-05-14 10:32:50.583 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 351.5514ms
+2024-05-14 10:32:50.619 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:32:50.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:32:50.625 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.1552ms
+2024-05-14 10:32:50.669 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.8018ms
+2024-05-14 10:32:50.740 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 10:32:50.757 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 10:32:50.759 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 19.0549ms
+2024-05-14 10:32:50.834 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:32:51.037 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 203.4313ms
+2024-05-14 10:33:03.716 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:33:03.838 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:33:03.891 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:33:04.253 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 352.6941ms
+2024-05-14 10:33:04.258 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:33:04.262 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:33:04.325 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 609.2273ms
+2024-05-14 10:33:40.354 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:33:40.375 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 20.8229ms
+2024-05-14 10:33:40.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:33:40.403 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:33:40.406 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 2.5512ms
+2024-05-14 10:33:40.426 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2878ms
+2024-05-14 10:33:40.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 10:33:40.528 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 10:33:40.530 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 6.1624ms
+2024-05-14 10:33:40.604 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:33:40.623 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.1150ms
+2024-05-14 10:33:49.992 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:33:49.997 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:33:50.010 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:33:50.069 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 52.8789ms
+2024-05-14 10:33:50.073 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:33:50.076 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:33:50.095 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 103.5810ms
+2024-05-14 10:34:10.976 +03:00 [INF] Application is starting!
+2024-05-14 10:34:11.820 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:34:11.990 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:34:11.994 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:34:11.996 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:34:11.998 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:34:12.744 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:34:13.303 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 564.6303ms
+2024-05-14 10:34:13.326 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:34:13.332 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:34:13.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 25.1840ms
+2024-05-14 10:34:13.389 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.2699ms
+2024-05-14 10:34:13.602 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:34:13.820 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.3470ms
+2024-05-14 10:34:20.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:34:20.207 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:34:20.245 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:34:20.425 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 170.0626ms
+2024-05-14 10:34:20.434 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:34:20.440 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:34:20.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 387.9388ms
+2024-05-14 10:34:26.937 +03:00 [INF] Application is starting!
+2024-05-14 10:34:28.253 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:34:28.394 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:34:28.398 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:34:28.400 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:34:28.401 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:34:28.806 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:34:29.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 389.7822ms
+2024-05-14 10:34:29.230 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:34:29.235 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:34:29.251 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 20.2389ms
+2024-05-14 10:34:29.316 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.6397ms
+2024-05-14 10:34:29.470 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:34:29.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.1208ms
+2024-05-14 10:34:35.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:34:35.179 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:34:35.209 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:34:35.389 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 171.1781ms
+2024-05-14 10:34:35.393 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:34:35.399 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:34:35.440 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 382.5098ms
+2024-05-14 10:34:57.254 +03:00 [INF] Application is starting!
+2024-05-14 10:34:58.016 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:34:58.165 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:34:58.169 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:34:58.171 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:34:58.171 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:34:59.019 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:34:59.590 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 583.1913ms
+2024-05-14 10:34:59.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:34:59.633 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:34:59.635 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 11.0859ms
+2024-05-14 10:34:59.691 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.8034ms
+2024-05-14 10:34:59.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:35:00.241 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.0594ms
+2024-05-14 10:35:05.493 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:35:05.605 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:35:05.643 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:35:05.840 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 188.0386ms
+2024-05-14 10:35:05.846 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:35:05.852 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:35:05.890 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 397.1496ms
+2024-05-14 10:36:16.394 +03:00 [INF] Application is starting!
+2024-05-14 10:36:17.173 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:36:17.339 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:36:17.344 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:36:17.346 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:36:17.348 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:36:18.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:36:18.935 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 523.7040ms
+2024-05-14 10:36:18.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:36:18.975 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:36:18.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 26.4262ms
+2024-05-14 10:36:19.026 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.6651ms
+2024-05-14 10:36:19.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 10:36:19.143 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 10:36:19.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 36.2939ms
+2024-05-14 10:36:19.226 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:36:19.554 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 327.8744ms
+2024-05-14 10:36:25.386 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:36:25.510 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:36:25.541 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:36:25.723 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 173.4406ms
+2024-05-14 10:36:25.728 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:36:25.735 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '168' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at MC.ApplicationServices.Implementations.JwtAuthenticationManager.Authenticate(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.ApplicationServices\Implementations\JwtAuthenticationManager.cs:line 42
+   at MC.WebAPI.Controllers.AuthController.Token(String clientId, String secret) in d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI\Controllers\AuthController.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-14 10:36:25.779 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 500 - text/plain;+charset=utf-8 392.8568ms
+2024-05-14 10:37:19.209 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:37:19.229 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:37:19.244 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:38:36.925 +03:00 [INF] Application is starting!
+2024-05-14 10:39:22.307 +03:00 [INF] Application is starting!
+2024-05-14 10:39:23.134 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 10:39:23.296 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 10:39:23.300 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 10:39:23.302 +03:00 [INF] Hosting environment: Development
+2024-05-14 10:39:23.305 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 10:39:23.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 10:39:23.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:39:24.041 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 204.2171ms
+2024-05-14 10:39:24.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 475.0403ms
+2024-05-14 10:39:24.360 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:39:24.375 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:39:24.387 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 27.2126ms
+2024-05-14 10:39:24.417 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.0661ms
+2024-05-14 10:39:24.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 10:39:24.492 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 10:39:24.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 19.0117ms
+2024-05-14 10:39:24.580 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:39:24.781 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.5333ms
+2024-05-14 10:39:33.016 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:39:33.136 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:39:33.170 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:39:58.825 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 10:39:58.859 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 25681.4885ms
+2024-05-14 10:39:58.865 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:39:58.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 25850.9165ms
+2024-05-14 10:39:59.801 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 10:39:59.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 81.6510ms
+2024-05-14 10:39:59.936 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 10:39:59.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 10:39:59.956 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 17.0566ms
+2024-05-14 10:39:59.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.9222ms
+2024-05-14 10:40:00.148 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 10:40:00.170 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 21.4622ms
+2024-05-14 10:40:05.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:40:05.975 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:40:05.981 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:40:07.193 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 10:40:07.198 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 1213.1463ms
+2024-05-14 10:40:07.200 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:40:07.202 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 1231.0459ms
+2024-05-14 10:44:22.125 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 10:44:22.131 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:44:22.135 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 10:44:26.993 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 10:44:26.998 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 4857.2224ms
+2024-05-14 10:44:27.002 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 10:44:27.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 4880.2094ms
+2024-05-14 10:44:37.916 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 10:44:37.926 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 10:44:37.937 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-14 10:44:37.940 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 401 0 - 23.5096ms
+2024-05-14 10:44:58.725 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 10:44:58.786 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 10:44:58.790 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-14 10:45:02.471 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-14 10:45:02.590 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-14 10:45:02.603 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 3810.0336ms
+2024-05-14 10:45:02.606 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 10:45:02.617 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 200 - application/json;+charset=utf-8 3891.5828ms
+2024-05-14 11:01:22.823 +03:00 [INF] Application is starting!
+2024-05-14 11:01:23.725 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:01:23.903 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:01:23.907 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:01:23.908 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:01:23.910 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:01:24.566 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:01:24.566 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 11:01:24.741 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 182.1396ms
+2024-05-14 11:01:24.949 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 392.6562ms
+2024-05-14 11:01:24.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:01:24.982 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 10.0341ms
+2024-05-14 11:01:24.982 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:01:25.019 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0235ms
+2024-05-14 11:01:25.068 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 11:01:25.086 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 11:01:25.088 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 19.8686ms
+2024-05-14 11:01:25.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:01:25.373 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.0167ms
+2024-05-14 11:01:32.590 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:01:32.708 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:01:32.749 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:01:32.836 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:01:32.859 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 101.0534ms
+2024-05-14 11:01:32.865 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:01:32.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 277.9071ms
+2024-05-14 11:01:45.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - -
+2024-05-14 11:01:45.776 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 11:01:45.784 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-14 11:01:48.168 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-14 11:01:48.305 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-14 11:01:48.318 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 2529.4496ms
+2024-05-14 11:01:48.323 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 11:01:48.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Movies?isActive=true - - - 200 - application/json;+charset=utf-8 2620.3929ms
+2024-05-14 11:03:43.558 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:03:43.579 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 20.4410ms
+2024-05-14 11:03:43.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - -
+2024-05-14 11:03:43.633 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - - - 0 - - 8.9496ms
+2024-05-14 11:04:08.951 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:04:08.963 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.3399ms
+2024-05-14 11:11:17.447 +03:00 [INF] Application is starting!
+2024-05-14 11:11:18.303 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:11:18.489 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:11:18.492 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:11:18.494 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:11:18.496 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:11:19.351 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:11:19.351 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 11:11:19.481 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 136.7887ms
+2024-05-14 11:11:19.684 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 341.3431ms
+2024-05-14 11:11:19.714 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:11:19.720 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 5.2499ms
+2024-05-14 11:11:19.723 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:11:19.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.6098ms
+2024-05-14 11:11:19.819 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 11:11:19.837 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 11:11:19.841 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 22.3416ms
+2024-05-14 11:11:19.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:11:20.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.5529ms
+2024-05-14 11:11:54.839 +03:00 [INF] Application is starting!
+2024-05-14 11:11:55.745 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:11:55.903 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:11:55.906 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:11:55.908 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:11:55.909 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:11:57.342 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:11:57.704 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 364.5160ms
+2024-05-14 11:11:57.743 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:11:57.744 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:11:57.776 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 31.8801ms
+2024-05-14 11:11:57.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.8597ms
+2024-05-14 11:11:58.024 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:11:58.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.3315ms
+2024-05-14 11:28:36.186 +03:00 [INF] Application is starting!
+2024-05-14 11:28:37.761 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:28:37.905 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:28:37.910 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:28:37.912 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:28:37.913 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:28:38.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:28:38.654 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - -
+2024-05-14 11:28:38.803 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - - - 0 - - 157.9557ms
+2024-05-14 11:28:39.057 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 412.6579ms
+2024-05-14 11:28:39.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:28:39.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:28:39.103 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 11.7255ms
+2024-05-14 11:28:39.138 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.2026ms
+2024-05-14 11:28:39.194 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 11:28:39.211 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 11:28:39.213 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 19.0055ms
+2024-05-14 11:28:39.284 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:28:39.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.2241ms
+2024-05-14 11:29:04.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:29:05.509 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:29:05.538 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:29:05.637 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:29:05.659 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 110.5248ms
+2024-05-14 11:29:05.666 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:29:05.674 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 888.6477ms
+2024-05-14 11:30:21.116 +03:00 [INF] Application is starting!
+2024-05-14 11:30:22.090 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:30:22.231 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:30:22.235 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:30:22.237 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:30:22.238 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:30:23.019 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:30:23.395 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 381.8446ms
+2024-05-14 11:30:23.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:30:23.430 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.7853ms
+2024-05-14 11:30:23.430 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:30:23.472 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7239ms
+2024-05-14 11:30:23.533 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - -
+2024-05-14 11:30:23.548 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-14 11:30:23.552 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - - - 0 628 image/png 19.4581ms
+2024-05-14 11:30:23.625 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:30:23.860 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.4470ms
+2024-05-14 11:30:39.521 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:30:39.606 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:30:39.634 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:30:39.718 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:30:39.738 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 94.9604ms
+2024-05-14 11:30:39.742 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:30:39.744 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 222.8923ms
+2024-05-14 11:30:58.841 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:30:58.847 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:30:58.849 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:30:58.855 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:30:58.858 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 5.0516ms
+2024-05-14 11:30:58.861 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:30:58.862 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 20.3587ms
+2024-05-14 11:33:56.663 +03:00 [INF] Application is starting!
+2024-05-14 11:33:58.345 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:33:58.521 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:33:58.525 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:33:58.534 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:33:58.536 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:33:58.997 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:33:59.395 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 402.9198ms
+2024-05-14 11:33:59.421 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:33:59.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:33:59.427 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.5027ms
+2024-05-14 11:33:59.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.6977ms
+2024-05-14 11:33:59.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:33:59.916 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 273.9267ms
+2024-05-14 11:34:02.451 +03:00 [INF] Application is starting!
+2024-05-14 11:34:03.481 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:34:03.624 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:34:03.627 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:34:03.629 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:34:03.631 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:34:04.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:34:04.882 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 359.7392ms
+2024-05-14 11:34:04.903 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:34:04.905 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:34:04.910 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.1978ms
+2024-05-14 11:34:04.936 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.0734ms
+2024-05-14 11:34:05.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:34:05.355 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 220.5560ms
+2024-05-14 11:34:26.569 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:34:27.378 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:34:27.432 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:34:27.562 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:34:27.579 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 138.0781ms
+2024-05-14 11:34:27.585 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:34:27.588 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 1018.8996ms
+2024-05-14 11:36:39.848 +03:00 [INF] Application is starting!
+2024-05-14 11:36:40.969 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:36:41.111 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:36:41.116 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:36:41.117 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:36:41.118 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:36:41.919 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:36:42.295 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 384.2222ms
+2024-05-14 11:36:42.321 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:36:42.325 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:36:42.334 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 12.9836ms
+2024-05-14 11:36:42.365 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.0918ms
+2024-05-14 11:36:42.505 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:36:42.710 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.7520ms
+2024-05-14 11:36:58.585 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:36:58.667 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:36:58.695 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:36:58.773 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.ApplicationServices.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:36:58.789 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 88.4203ms
+2024-05-14 11:36:58.793 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:36:58.796 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 210.7323ms
+2024-05-14 11:38:45.803 +03:00 [INF] Application is starting!
+2024-05-14 11:38:46.769 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:38:46.911 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:38:46.916 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:38:46.918 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:38:46.919 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:38:47.457 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:38:47.819 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 369.7514ms
+2024-05-14 11:38:47.836 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:38:47.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:38:47.843 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 7.2755ms
+2024-05-14 11:38:47.886 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.4624ms
+2024-05-14 11:38:48.022 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:38:48.237 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 215.0943ms
+2024-05-14 11:39:06.280 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:39:06.357 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/auth?clientId=fmi&secret=fmi - - - 404 0 - 77.1087ms
+2024-05-14 11:39:23.219 +03:00 [INF] Application is starting!
+2024-05-14 11:39:24.195 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:39:24.339 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:39:24.343 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:39:24.345 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:39:24.347 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:39:24.821 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:39:25.276 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 464.3091ms
+2024-05-14 11:39:25.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:39:25.293 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:39:25.300 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 8.1239ms
+2024-05-14 11:39:25.320 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6469ms
+2024-05-14 11:39:25.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:39:25.667 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.2814ms
+2024-05-14 11:39:40.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:39:41.052 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/auth?clientId=fmi&secret=fmi - - - 404 0 - 90.0708ms
+2024-05-14 11:54:17.499 +03:00 [INF] Application is starting!
+2024-05-14 11:54:18.260 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:54:18.412 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:54:18.424 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:54:18.426 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:54:18.435 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:54:18.787 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:54:19.134 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 355.1584ms
+2024-05-14 11:54:19.155 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:54:19.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:54:19.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 13.3235ms
+2024-05-14 11:54:19.206 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.4215ms
+2024-05-14 11:54:19.407 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:54:19.744 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 336.8746ms
+2024-05-14 11:54:34.090 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:54:34.183 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:54:34.210 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:54:34.296 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:54:34.313 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 95.1379ms
+2024-05-14 11:54:34.319 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:54:34.321 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 230.4759ms
+2024-05-14 11:54:34.354 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 11:54:34.362 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 11:54:34.370 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-14 11:54:34.373 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 401 0 - 18.9013ms
+2024-05-14 11:54:54.888 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:54:54.892 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:54:54.893 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:54:54.898 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:54:54.900 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 3.391ms
+2024-05-14 11:54:54.902 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:54:54.904 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 15.9609ms
+2024-05-14 11:54:54.908 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 11:54:54.910 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 11:54:54.912 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-14 11:54:54.913 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 401 0 - 5.2657ms
+2024-05-14 11:55:45.503 +03:00 [INF] Application is starting!
+2024-05-14 11:55:46.804 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:55:47.000 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:55:47.004 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:55:47.006 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:55:47.008 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:55:47.803 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:55:48.144 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 349.3893ms
+2024-05-14 11:55:48.165 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:55:48.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.4007ms
+2024-05-14 11:55:48.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:55:48.220 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.6121ms
+2024-05-14 11:55:48.357 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:55:48.589 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.9935ms
+2024-05-14 11:56:00.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:56:00.799 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:56:00.825 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:56:00.909 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:56:00.931 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 96.4434ms
+2024-05-14 11:56:00.937 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:56:00.938 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 230.6994ms
+2024-05-14 11:56:00.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 11:56:00.984 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-14 11:56:00.991 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-14 11:56:00.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 401 0 - 18.4825ms
+2024-05-14 11:56:59.671 +03:00 [INF] Application is starting!
+2024-05-14 11:57:00.896 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 11:57:01.046 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 11:57:01.050 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 11:57:01.052 +03:00 [INF] Hosting environment: Development
+2024-05-14 11:57:01.053 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 11:57:01.841 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 11:57:02.176 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 337.1554ms
+2024-05-14 11:57:02.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 11:57:02.207 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 6.2101ms
+2024-05-14 11:57:02.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 11:57:02.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0642ms
+2024-05-14 11:57:02.424 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 11:57:02.704 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.7724ms
+2024-05-14 11:57:14.308 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - -
+2024-05-14 11:57:14.393 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:57:14.421 +03:00 [INF] Route matched with {action = "Token", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Token(System.String, System.String) on controller MC.WebAPI.Controllers.AuthController (MC.WebAPI).
+2024-05-14 11:57:14.507 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Authentications.AuthenticationResponse'.
+2024-05-14 11:57:14.529 +03:00 [INF] Executed action MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI) in 101.5516ms
+2024-05-14 11:57:14.535 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.AuthController.Token (MC.WebAPI)'
+2024-05-14 11:57:14.537 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/auth?clientId=fmi&secret=fmi - - - 200 - application/json;+charset=utf-8 228.5707ms
+2024-05-14 11:57:14.577 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/movies - -
+2024-05-14 11:57:14.621 +03:00 [INF] Executing endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 11:57:14.627 +03:00 [INF] Route matched with {action = "Get", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Boolean) on controller MC.WebAPI.Controllers.MoviesController (MC.WebAPI).
+2024-05-14 11:57:17.745 +03:00 [INF] Executed DbCommand (88ms) [Parameters=[@__isActive_Value_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Country], [m].[CreatedBy], [m].[CreatedOn], [m].[GenreId], [m].[IsActivated], [m].[RatingId], [m].[ReleaseDate], [m].[Studio], [m].[Title], [m].[UpdatedBy], [m].[UpdatedOn], [g].[Id], [g].[CreatedBy], [g].[CreatedOn], [g].[IsActivated], [g].[Name], [g].[UpdatedBy], [g].[UpdatedOn], [r].[Id], [r].[CreatedBy], [r].[CreatedOn], [r].[Description], [r].[IsActivated], [r].[Name], [r].[UpdatedBy], [r].[UpdatedOn]
+FROM [Movies] AS [m]
+INNER JOIN [Genres] AS [g] ON [m].[GenreId] = [g].[Id]
+LEFT JOIN [Ratings] AS [r] ON [m].[RatingId] = [r].[Id]
+WHERE [m].[IsActivated] = @__isActive_Value_0
+2024-05-14 11:57:17.867 +03:00 [INF] Executing OkObjectResult, writing value of type 'MC.Infrastructure.Messaging.Responses.Movies.GetMoviesResponse'.
+2024-05-14 11:57:17.885 +03:00 [INF] Executed action MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI) in 3252.3331ms
+2024-05-14 11:57:17.888 +03:00 [INF] Executed endpoint 'MC.WebAPI.Controllers.MoviesController.Get (MC.WebAPI)'
+2024-05-14 11:57:17.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/movies - - - 200 - application/json;+charset=utf-8 3318.9348ms
+2024-05-14 12:00:30.495 +03:00 [INF] Application is starting!
+2024-05-14 12:00:31.860 +03:00 [INF] User profile is available. Using 'C:\Users\fmi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-14 12:00:32.048 +03:00 [INF] Now listening on: http://localhost:5004
+2024-05-14 12:00:32.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-14 12:00:32.054 +03:00 [INF] Hosting environment: Development
+2024-05-14 12:00:32.056 +03:00 [INF] Content root path: d:\users\fmi\Desktop\DA\MovieCatalog\MC.WebAPI
+2024-05-14 12:00:32.883 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - -
+2024-05-14 12:00:33.274 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 399.3454ms
+2024-05-14 12:00:33.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2024-05-14 12:00:33.307 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/_vs/browserLink - -
+2024-05-14 12:00:33.316 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12350 application/javascript;+charset=utf-8 19.7158ms
+2024-05-14 12:00:33.351 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.6593ms
+2024-05-14 12:00:33.493 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - -
+2024-05-14 12:00:33.715 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.5006ms
