@@ -31,10 +31,6 @@ To get started with the course, clone this repository and follow the instruction
 * [Test project authentication](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/documentations/project-authentication.md)
 * [Setup firebase](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/documentations/setup-firebase.md)
 
-## Course assignment:
-* [Task](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/course-work/README.md)
-* [Assessment Requirements](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/documentations/assessment-requirements.md)
-
 ### Days Schedule
 * First week
   * presentations - [Distributed application](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-01.pdf), [Network](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-02.pdf)
