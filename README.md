@@ -39,7 +39,9 @@ To get started with the course, clone this repository and follow the instruction
 * Third week:
   * presentations -  [gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-05.pdf), [Example - gRPC Web services](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/examples/GrpcGreeter)
 * Fourth week:
-  * presentations - 
+  * presentations - [Distributed architectures: Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf)
+* Fifth week:
+  * presentations -
 * Six week:
   * presentations - 
 * Seven week:
