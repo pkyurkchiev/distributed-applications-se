@@ -41,7 +41,7 @@ To get started with the course, clone this repository and follow the instruction
 * Fourth week:
   * presentations - [Distributed architectures: Client - Server and N - Tier](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-06.pdf)
 * Fifth week:
-  * presentations -
+  * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
 * Six week:
   * presentations - 
 * Seven week:
