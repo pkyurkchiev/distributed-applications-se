@@ -1,0 +1,34 @@
+@model RestaurantClient.Models.ReservationFormViewModel
+
+<h2>Нова резервация</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="ClientId"></label>
+        <select asp-for="ClientId" asp-items="Model.Clients" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TableId"></label>
+        <select asp-for="TableId" asp-items="Model.Tables" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReservationDate"></label>
+        <input asp-for="ReservationDate" class="form-control" type="datetime-local"
+       value="@Model.ReservationDate.ToString("yyyy-MM-ddTHH:mm")" />
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PeopleCount"></label>
+        <input asp-for="PeopleCount" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Notes"></label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Запази</button>
+</form>

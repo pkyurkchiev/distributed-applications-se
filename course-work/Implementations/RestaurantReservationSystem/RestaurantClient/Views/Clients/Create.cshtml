@@ -1,0 +1,43 @@
+@model RestaurantClient.Models.Client
+
+@{
+    ViewData["Title"] = "Добави клиент";
+}
+
+<h2>Добави клиент</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RegisteredOn"></label>
+        <input asp-for="RegisteredOn" class="form-control" type="date" />
+        <span asp-validation-for="RegisteredOn" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IsVip"></label>
+        <input asp-for="IsVip" type="checkbox" class="form-check-input" />
+    </div>
+
+    <button type="submit" class="btn btn-success mt-2">Запази</button>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
