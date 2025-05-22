@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Начален панел";
+}
+
+@section Styles {
+    <style>
+        .dashboard-card {
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            border: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .dashboard-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .dashboard-desc {
+            font-size: 0.95rem;
+            color: #6c757d;
+        }
+
+        .dashboard-btn {
+            margin-top: 15px;
+        }
+
+        .dashboard-header {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+    </style>
+}
+
+<div class="container py-5">
+    <h2 class="dashboard-header text-center text-primary">The Hungry Spot</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card dashboard-card text-center">
+                <div class="card-body">
+                    <div class="dashboard-icon text-primary">👤</div>
+                    <div class="dashboard-title">Клиенти</div>
+                    <p class="dashboard-desc">Управлявай клиентска база: създавай, редактирай и изтривай.</p>
+                    <a asp-controller="Clients" asp-action="Index" class="btn btn-primary dashboard-btn">Управление на клиенти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card dashboard-card text-center">
+                <div class="card-body">
+                    <div class="dashboard-icon text-success">🍽️</div>
+                    <div class="dashboard-title">Маси</div>
+                    <p class="dashboard-desc">Преглеждай и настройвай масите и техните местоположения.</p>
+                    <a asp-controller="Tables" asp-action="Index" class="btn btn-success dashboard-btn">Управление на маси</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card dashboard-card text-center">
+                <div class="card-body">
+                    <div class="dashboard-icon text-warning">📅</div>
+                    <div class="dashboard-title">Резервации</div>
+                    <p class="dashboard-desc">Създавай и следи активни резервации бързо и удобно.</p>
+                    <a asp-controller="Reservations" asp-action="Index" class="btn btn-warning dashboard-btn text-white">Управление на резервации</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a asp-controller="Auth" asp-action="Logout" class="btn btn-outline-dark">🔓 Изход</a>
+    </div>
+</div>

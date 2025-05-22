@@ -1,0 +1,50 @@
+@model List<RestaurantClient.Models.Table>
+@{
+    ViewData["Title"] = "Маси";
+}
+
+<h2>Маси</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">➕ Нова маса</a>
+
+<!-- 🔍 Форма за търсене -->
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="form-row row">
+        <div class="col-md-4 mb-2">
+            <input type="number" name="number" class="form-control" placeholder="Номер на маса" />
+        </div>
+        <div class="col-md-4 mb-2">
+            <input type="number" name="capacity" class="form-control" placeholder="Минимален капацитет" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <button type="submit" class="btn btn-primary w-100">🔍 Търси</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Номер</th>
+            <th>Капацитет</th>
+            <th>Локация</th>
+            <th>Свободна</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var t in Model)
+    {
+        <tr>
+            <td>@t.Number</td>
+            <td>@t.Capacity</td>
+            <td>@t.Location</td>
+            <td>@(t.IsAvailable ? "Да" : "Не")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@t.Id" class="btn btn-warning btn-sm">✏️</a>
+                <a asp-action="Delete" asp-route-id="@t.Id" class="btn btn-danger btn-sm">🗑</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

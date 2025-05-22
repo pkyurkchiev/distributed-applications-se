@@ -1,0 +1,53 @@
+@model List<RestaurantClient.Models.Reservation>
+@{
+    ViewData["Title"] = "Резервации";
+}
+
+<h2>Резервации</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">➕ Нова резервация</a>
+
+<!-- 🔍 Форма за търсене -->
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="form-row row">
+        <div class="col-md-4 mb-2">
+            <input type="text" name="clientName" class="form-control" placeholder="Име на клиент" />
+        </div>
+        <div class="col-md-3 mb-2">
+            <input type="number" name="tableNumber" class="form-control" placeholder="Номер на маса" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <button type="submit" class="btn btn-primary w-100">🔍 Търси</button>
+        </div>
+    </div>
+</form>
+
+<!-- 📋 Таблица с резервации -->
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Клиент</th>
+            <th>Маса</th>
+            <th>Дата и час</th>
+            <th>Брой хора</th>
+            <th>Бележки</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var r in Model)
+{
+    <tr>
+        <td>@r.Client?.Name</td>
+        <td>@r.Table?.Number</td>
+        <td>@r.ReservationDate.ToString("dd.MM.yyyy HH:mm")</td>
+        <td>@r.PeopleCount</td>
+        <td>@r.Notes</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@r.Id" class="btn btn-warning btn-sm">✏️</a>
+            <a asp-action="Delete" asp-route-id="@r.Id" class="btn btn-danger btn-sm">🗑</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>

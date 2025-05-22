@@ -1,0 +1,52 @@
+@model List<RestaurantClient.Models.Client>
+@{
+    ViewData["Title"] = "Клиенти";
+}
+
+<h2>Клиенти</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">➕ Нов клиент</a>
+
+<!-- 🔍 Форма за търсене -->
+<form method="get" asp-action="Index" class="mb-4">
+    <div class="form-row row">
+        <div class="col-md-4 mb-2">
+            <input type="text" name="name" class="form-control" placeholder="Име на клиент" />
+        </div>
+        <div class="col-md-4 mb-2">
+            <input type="text" name="phone" class="form-control" placeholder="Телефон" />
+        </div>
+        <div class="col-md-2 mb-2">
+            <button type="submit" class="btn btn-primary w-100">🔍 Търси</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Телефон</th>
+            <th>Email</th>
+            <th>Регистрация</th>
+            <th>VIP</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var client in Model)
+    {
+        <tr>
+            <td>@client.Name</td>
+            <td>@client.Phone</td>
+            <td>@client.Email</td>
+            <td>@client.RegisteredOn.ToString("dd.MM.yyyy")</td>
+            <td>@(client.IsVip ? "Да" : "Не")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@client.Id" class="btn btn-warning btn-sm">✏️</a>
+                <a asp-action="Delete" asp-route-id="@client.Id" class="btn btn-danger btn-sm">🗑</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
