@@ -1,4 +1,8 @@
-# Car Shop Application
+# Studen Names - Kalin Paraleev
+# Studen Number - 2301321039
+
+
+## Car Shop Application
 
 This is a full-stack car shop application built with:
 
