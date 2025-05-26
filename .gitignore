@@ -289,3 +289,4 @@ __pycache__/
 
 # raw documents
 raw-documents/
+.DS_Store

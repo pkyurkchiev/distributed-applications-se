@@ -1,0 +1,33 @@
+
+
+services:
+  frontend:
+    build:
+      context: ./fe
+    ports:
+      - "80:80"
+    image: frontend:dev
+
+  app:
+    container_name: be
+    build:
+      context: ./be
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresqldb
+
+  postgresqldb:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: carshop
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

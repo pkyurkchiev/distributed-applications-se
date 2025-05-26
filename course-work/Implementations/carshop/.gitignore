@@ -1,0 +1,53 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment and config files
+.env
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# Docker
+*.pid
+*.db
+
+
+node_modules/
+dist/
+build/
+
+# Misc
+*.swp

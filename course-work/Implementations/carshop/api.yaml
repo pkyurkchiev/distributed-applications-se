@@ -1,0 +1,640 @@
+openapi: 3.0.3
+info:
+  title: Car Service API
+  version: 1.0.0
+  description: API for car listings, service records, and sales with user authentication
+
+paths:
+  /authenticate:
+    post:
+      tags:
+        - Authentication
+      summary: Authenticate user and return JWT token
+      description: Public endpoint for user login, returns JWT token on success
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthenticationRequestDTO'
+      responses:
+        '200':
+          description: Authentication successful, returns JWT token
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthenticationResponseDTO'
+        '401':
+          description: Unauthorized - invalid credentials
+        '400':
+          description: Validation error
+
+  /register:
+    post:
+      tags:
+        - Authentication
+      summary: Register a new customer user
+      description: Public endpoint to register a new customer, returns JWT token on success
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequestDTO'
+      responses:
+        '201':
+          description: Registration successful, returns JWT token
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthenticationResponseDTO'
+        '400':
+          description: Validation error or password mismatch
+
+  /register-employee:
+    post:
+      tags:
+        - Authentication
+      summary: Register a new employee user
+      description: Public endpoint to register a new employee, returns JWT token on success
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterRequestDTO'
+      responses:
+        '201':
+          description: Employee registration successful, returns JWT token
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthenticationResponseDTO'
+        '400':
+          description: Validation error or password mismatch
+
+  /cars:
+    post:
+      tags:
+        - Public Cars
+      summary: View all available cars with filtering and pagination
+      description: Retrieve a paginated list of cars with optional sorting and filtering
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CarRequestListDTO'
+      responses:
+        '200':
+          description: List of available cars
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CarListDTO'
+
+  /cars/{id}:
+    get:
+      tags:
+        - Public Cars
+      summary: View car details by ID
+      description: Retrieve detailed information about a specific car by its ID
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Car ID
+      responses:
+        '200':
+          description: Car details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CarDTO'
+        '404':
+          description: Car not found
+
+  /cars/create:
+    post:
+      tags:
+        - Cars
+      summary: Create a new car listing
+      description: Allows an employee to create a new car listing
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CarCreateDTO'
+      responses:
+        '201':
+          description: Car created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CarDTO'
+
+  /cars/update/{id}:
+    post:
+      tags:
+        - Cars
+      summary: Update a car listing by ID
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Car ID to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CarUpdateDTO'
+      responses:
+        '200':
+          description: Car updated successfully
+        '404':
+          description: Car not found
+
+  /cars/delete/{id}:
+    post:
+      tags:
+        - Cars
+      summary: Delete a car listing by ID
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Car ID to delete
+      responses:
+        '204':
+          description: Car deleted successfully
+        '404':
+          description: Car not found
+
+  /sales:
+    post:
+      tags:
+        - Sales
+      summary: View all available sales listings
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SaleListRequestDTO'
+      responses:
+        '200':
+          description: List of sales
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SaleDTO'
+
+  /sales/{id}:
+    get:
+      tags:
+        - Sales
+      summary: View sale information by ID
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Sale ID to retrieve
+      responses:
+        '200':
+          description: Sale details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SaleDTO'
+        '404':
+          description: Sale not found
+
+  /sales/create:
+    post:
+      tags:
+        - Sales
+      summary: Create a sale listing
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SaleCreateDTO'
+      responses:
+        '201':
+          description: Sale created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SaleDTO'
+
+  /sales/update/{id}:
+    post:
+      tags:
+        - Sales
+      summary: Update a sale listing
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Sale ID to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SaleUpdateDTO'
+      responses:
+        '200':
+          description: Sale updated successfully
+        '404':
+          description: Sale not found
+
+  /sales/delete/{id}:
+    post:
+      tags:
+        - Sales
+      summary: Delete a sale listing
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Sale ID to delete
+      responses:
+        '204':
+          description: Sale deleted successfully
+        '404':
+          description: Sale not found
+
+  /service-car/my/{userId}:
+    post:
+      tags:
+        - Customer Service Cars
+      summary: Get all service cars for a specific user with pagination and filters
+      description: Retrieve paginated service cars of the authenticated customer
+      parameters:
+        - in: path
+          name: userId
+          schema:
+            type: integer
+          required: true
+          description: User ID of the customer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ServiceCarRequestListDTO'
+      responses:
+        '200':
+          description: List of service cars for user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ServiceCarDTO'
+
+  /service-car/my/{userId}/{serviceCarId}:
+    get:
+      tags:
+        - Customer Service Cars
+      summary: Get details of a specific service car for a user
+      parameters:
+        - in: path
+          name: userId
+          schema:
+            type: integer
+          required: true
+          description: User ID
+        - in: path
+          name: serviceCarId
+          schema:
+            type: integer
+          required: true
+          description: Service Car ID
+      responses:
+        '200':
+          description: Service car details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceCarDTO'
+        '404':
+          description: Service car not found
+
+    post:
+      tags:
+        - Customer Service Cars
+      summary: Update a service car
+      description: Update details of a service car owned by the user
+      parameters:
+        - in: path
+          name: userId
+          schema:
+            type: integer
+          required: true
+        - in: path
+          name: serviceCarId
+          schema:
+            type: integer
+          required: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas
+/ServiceCarUpdateDTO:
+  post:
+    responses:
+      '200':
+        description: Service car updated successfully
+      '404':
+        description: Service car not found
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    AuthenticationRequestDTO:
+      type: object
+      required:
+        - username
+        - password
+      properties:
+        username:
+          type: string
+          example: user@example.com
+        password:
+          type: string
+          format: password
+          example: mypassword123
+          AuthenticationResponseDTO:
+  type: object
+  properties:
+    token:
+      type: string
+      description: JWT token
+      example: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+
+RegisterRequestDTO:
+  type: object
+  required:
+    - username
+    - email
+    - password
+    - matchingPassword
+  properties:
+    username:
+      type: string
+      example: newuser
+    email:
+      type: string
+      format: email
+      example: newuser@example.com
+    password:
+      type: string
+      format: password
+    matchingPassword:
+      type: string
+      format: password
+
+CarRequestListDTO:
+  type: object
+  properties:
+    search:
+      type: string
+      description: Search text for car model or brand
+    page:
+      type: integer
+      default: 0
+    size:
+      type: integer
+      default: 10
+    sortBy:
+      type: string
+      example: price
+    sortDirection:
+      type: string
+      enum: [asc, desc]
+      default: asc
+
+CarListDTO:
+  type: object
+  properties:
+    id:
+      type: integer
+    brand:
+      type: string
+    model:
+      type: string
+    price:
+      type: number
+      format: float
+    year:
+      type: integer
+
+CarDTO:
+  allOf:
+    - $ref: '#/components/schemas/CarListDTO'
+    - type: object
+      properties:
+        description:
+          type: string
+        mileage:
+          type: integer
+        color:
+          type: string
+        engine:
+          type: string
+
+CarCreateDTO:
+  type: object
+  required:
+    - brand
+    - model
+    - price
+    - year
+  properties:
+    brand:
+      type: string
+    model:
+      type: string
+    price:
+      type: number
+      format: float
+    year:
+      type: integer
+    description:
+      type: string
+    mileage:
+      type: integer
+    color:
+      type: string
+    engine:
+      type: string
+
+CarUpdateDTO:
+  type: object
+  properties:
+    brand:
+      type: string
+    model:
+      type: string
+    price:
+      type: number
+      format: float
+    year:
+      type: integer
+    description:
+      type: string
+    mileage:
+      type: integer
+    color:
+      type: string
+    engine:
+      type: string
+
+SaleListRequestDTO:
+  type: object
+  properties:
+    page:
+      type: integer
+      default: 0
+    size:
+      type: integer
+      default: 10
+    sortBy:
+      type: string
+      example: date
+    sortDirection:
+      type: string
+      enum: [asc, desc]
+      default: desc
+
+SaleDTO:
+  type: object
+  properties:
+    id:
+      type: integer
+    carId:
+      type: integer
+    salePrice:
+      type: number
+      format: float
+    saleDate:
+      type: string
+      format: date
+    buyerId:
+      type: integer
+
+SaleCreateDTO:
+  type: object
+  required:
+    - carId
+    - salePrice
+    - saleDate
+    - buyerId
+  properties:
+    carId:
+      type: integer
+    salePrice:
+      type: number
+      format: float
+    saleDate:
+      type: string
+      format: date
+    buyerId:
+      type: integer
+
+SaleUpdateDTO:
+  type: object
+  properties:
+    salePrice:
+      type: number
+      format: float
+    saleDate:
+      type: string
+      format: date
+    buyerId:
+      type: integer
+
+ServiceCarRequestListDTO:
+  type: object
+  properties:
+    page:
+      type: integer
+      default: 0
+    size:
+      type: integer
+      default: 10
+    sortBy:
+      type: string
+      example: serviceDate
+    sortDirection:
+      type: string
+      enum: [asc, desc]
+      default: desc
+
+ServiceCarDTO:
+  type: object
+  properties:
+    id:
+      type: integer
+    userId:
+      type: integer
+    carId:
+      type: integer
+    serviceDate:
+      type: string
+      format: date
+    description:
+      type: string
+
+ServiceCarUpdateDTO:
+  type: object
+  properties:
+    serviceDate:
+      type: string
+      format: date
+    description:
+      type: string
