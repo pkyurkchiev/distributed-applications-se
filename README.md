@@ -5,6 +5,7 @@ This course is designed to provide an overview of the principles and practices i
 Participants will also explore the theory and formal processes of application architecture and the development of modern applications. The course covers modern distributed architectures, including SOA, Microservices, Client-Server, and N-Tier, as well as technologies such as RESTful, SOAP, gRPC, and GraphQL web services. By the end of the course, students will be equipped with the knowledge and skills to design, develop, and deploy scalable and secure distributed systems.
 
 ### POLL
+* [Course Feedback](https://forms.gle/3Z5h7Up2orDTvfo5A)
 
 ### Competencies
 Upon successful completion of this course, participants will:
@@ -43,9 +44,9 @@ To get started with the course, clone this repository and follow the instruction
 * Fifth week:
   * presentations - [Distributed architectures: SOA](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-07.pdf), [Distributed architectures: Microservices](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-08.pdf)
 * Six week:
-  * presentations - 
+  * presentations - [Cloud Computing](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-09.pdf), [Cloud databases](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-10.pdf), [Cloud storages](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-11.pdf)
 * Seven week:
-  * presentations - 
+  * presentations - [Serverless architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-12.pdf), [Event driven architecture](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-13.pdf), [Internet of things](https://github.com/pkyurkchiev/distributed-applications-se/tree/master/presentations/Lecture-14.pdf)
 
 ### Course assignment
 * [Task](https://github.com/pkyurkchiev/distributed-applications-se/blob/master/course-work/README.md)
