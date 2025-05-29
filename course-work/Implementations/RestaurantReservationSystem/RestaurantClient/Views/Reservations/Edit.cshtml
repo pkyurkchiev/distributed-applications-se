@@ -1,0 +1,44 @@
+@model RestaurantClient.Models.ReservationFormViewModel
+
+@{
+    ViewData["Title"] = "Редакция на резервация";
+}
+
+<h2>Редакция на резервация</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="ClientId" class="control-label">Клиент</label>
+        <select asp-for="ClientId" asp-items="Model.Clients" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TableId" class="control-label">Маса</label>
+        <select asp-for="TableId" asp-items="Model.Tables" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReservationDate" class="control-label">Дата и час</label>
+        <input asp-for="ReservationDate" class="form-control" type="datetime-local"
+               value="@Model.ReservationDate.ToString("yyyy-MM-ddTHH:mm")" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PeopleCount" class="control-label">Брой гости</label>
+        <input asp-for="PeopleCount" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Notes" class="control-label">Бележки</label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">💾 Запази промените</button>
+    <a asp-action="Index" class="btn btn-secondary">⬅ Назад</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
