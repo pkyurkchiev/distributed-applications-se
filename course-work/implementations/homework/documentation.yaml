@@ -1,0 +1,381 @@
+openapi: 3.0.0
+info:
+  title: Project and Task Management System (API Documentation)
+  description: |
+    This documentation details the software services (API endpoints) developed for the course work project.
+    The system facilitates user registration, isolated project management, and task allocation.
+  version: 1.0.0
+servers:
+  - url: http://127.0.0.1:8000/api
+    description: Local Software Development Server
+
+security:
+  - TokenAuth: []
+
+paths:
+  /users/:
+    post:
+      summary: Register a new user account
+      description: |
+        Allows anonymous visitors to provision a new user profile. 
+        This endpoint maps to the `CreateUserView` view class and leverages `UserSerializer`.
+        It bypasses the default global security policies via `AllowAny`, meaning no token header is required.
+      security: []
+      requestBody:
+        description: JSON payload containing registration credentials subject to strict built-in schema validations.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRequest'
+      responses:
+        '201':
+          description: User record successfully inserted into the database.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserResponse'
+        '400':
+          description: |
+            Bad Request - Input validation failure.
+            Common triggers:
+            - The provided username already exists in the system database.
+            - A required property was missing from the payload.
+            - Input text exceeded predefined character thresholds.
+
+  /projects/:
+    get:
+      summary: Retrieve all projects owned by the authenticated user
+      description: |
+        Returns an array containing only the projects associated with the active token session. 
+        The underlying `ProjectViewSet` applies database-level filtering and packages the entries alongside their pre-fetched task collections.
+      responses:
+        '200':
+          description: An array of user-specific projects retrieved successfully.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProjectResponse'
+        '401':
+          description: Unauthorized. The request either lacks the `Authorization` header or supplies an expired/malformed token.
+
+    post:
+      summary: Provision a new project record
+      description: |
+        Creates a new project record. The API automatically maps the project's owner field to the current client 
+        via the framework's `perform_create(serializer)` hook, assigning `user=self.request.user`.
+      requestBody:
+        description: Attributes required to instantiate a project. Notice that the `user` reference field is omitted from the body as it is resolved via the request state.
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectRequest'
+      responses:
+        '201':
+          description: Project instantiated and saved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProjectResponse'
+        '400':
+          description: Malformed input syntax or invalid property types (e.g., poorly formatted date string or header length violation).
+
+  /projects/{id}/:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: The unique primary key (ID) identifying the project row within the relational database.
+        schema:
+          type: integer
+    get:
+      summary: Retrieve detailed project information
+      description: Returns the full metadata for a specific project instance along with its nested array of tasks.
+      responses:
+        '200':
+          description: Project entity located; records returned.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProjectResponse'
+        '404':
+          description: Entity Not Found. The record does not exist, or the authenticated user lacks permission to view it.
+    put:
+      summary: Replace a project instance entirely
+      description: Completely updates an existing project entity. This action overwrites all fields; missing fields will trigger structural errors or be reset to defaults.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectRequest'
+      responses:
+        '200':
+          description: Project overwritten successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProjectResponse'
+        '400':
+          description: Structural or data validation constraints violated during update.
+        '404':
+          description: The designated project primary key does not exist.
+    patch:
+      summary: Modify project attributes partially
+      description: Updates select attributes of a project without demanding a complete payload transmission (e.g., altering only the description text).
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectRequest'
+      responses:
+        '200':
+          description: Field modifications committed successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProjectResponse'
+    delete:
+      summary: Remove a project instance
+      description: |
+        Permanently purges the project entry. Due to the model configuration (`on_delete=models.CASCADE`), 
+        **all task entries referencing this project ID will be dropped automatically** via cascading deletion.
+      responses:
+        '204':
+          description: Project and cascading child tasks successfully deleted. No response payload returned.
+
+  /projects/{pk}/tasks/:
+    get:
+      summary: List tasks filtered by a specific project reference
+      description: |
+        Maps explicitly to the `TasksByProjectListView` view class. Exposes a selective array of tasks 
+        filtered via the URL path variable matching the foreign key constraint (`project__id=self.kwargs['pk']`).
+      parameters:
+        - name: pk
+          in: path
+          required: true
+          description: The primary key of the parent project.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Filtered task collection generated and returned.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TaskResponse'
+        '401':
+          description: Unauthorized access. Missing authorization token credentials.
+
+  /tasks/:
+    get:
+      summary: List all tasks globally
+      description: Maps to `TasksViewSet.get_queryset()`. Exposes all tasks globally across the system without grouping or project filtering constraints.
+      responses:
+        '200':
+          description: Global task array generated and returned.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TaskResponse'
+    post:
+      summary: Create a new task instance
+      description: Inserts a new task. The entry can either reference a valid parent project ID or remain unassigned (`nullable=true`).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskRequest'
+      responses:
+        '201':
+          description: Task persisted successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+        '400':
+          description: Parameter constraint failure (e.g., title text length exceeding 100 characters).
+
+  /tasks/{id}/:
+    parameters:
+      - name: id
+        in: path
+        required: true
+        description: The system-generated database ID of the task.
+        schema:
+          type: integer
+    get:
+      summary: Retrieve task details
+      description: Returns the task's individual attributes alongside its associated project identifier.
+      responses:
+        '200':
+          description: Task record successfully loaded.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskResponse'
+    put:
+      summary: Replace a task instance completely
+      description: Completely updates the target task, modifying its title and updating its parent project reference.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskRequest'
+      responses:
+        '200':
+          description: Task overwritten completely.
+    patch:
+      summary: Modify task attributes partially
+      description: Used to apply subtle updates, such as editing only the title text or moving the task to a different project.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskRequest'
+      responses:
+        '200':
+          description: Task updated successfully.
+    delete:
+      summary: Remove a task instance
+      description: Deletes the selected task from the application database without impacting the parent project record.
+      responses:
+        '204':
+          description: Task entry successfully unlinked and purged.
+
+components:
+  securitySchemes:
+    TokenAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: |
+        Django REST Framework built-in Token authentication scheme.
+        The token key must be passed via the HTTP headers exactly as formatted below:
+        `Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b`
+
+  schemas:
+    UserRequest:
+      type: object
+      required:
+        - username
+        - password
+      description: Input parameters required to initialize a new User record, mapping onto Django’s native auth user layout.
+      properties:
+        username:
+          type: string
+          maxLength: 150
+          description: Required. Maximum limit of 150 characters. Characters must be globally unique across the system.
+        password:
+          type: string
+          format: password
+          maxLength: 128
+          description: Required. Plaintext string input representing a secure user password (up to 128 characters). This value is auto-hashed when stored.
+        email:
+          type: string
+          format: email
+          description: Optional field. Must conform to a standard RFC email regex configuration (containing an `@` sign and valid domain suffix).
+
+    UserResponse:
+      type: object
+      description: Account details returned to the consumer following successful account creation. The password hash is explicitly suppressed for security reasons.
+      properties:
+        id:
+          type: integer
+          description: Auto-incrementing primary key allocated by the database engines.
+        username:
+          type: string
+          description: The unique handle chosen for the account instance.
+        email:
+          type: string
+          description: The contact email address assigned to the account (if provided).
+
+    ProjectRequest:
+      type: object
+      required:
+        - title
+        - description
+        - date
+      description: Structural specification demanded when executing object insertion or overwrite calls against project paths.
+      properties:
+        title:
+          type: string
+          maxLength: 100
+          description: Required. Constrained to a max string length of 100 characters as mapped by `models.CharField(max_length=100)`.
+        description:
+          type: string
+          description: Required. Freeform text block describing project objectives, mapped via `models.TextField()`.
+        date:
+          type: string
+          format: date
+          description: Required. Must represent an absolute calendar date formatted strictly to ISO 8601 extended standard (`YYYY-MM-DD`), mapped via `models.DateField()`.
+
+    ProjectResponse:
+      type: object
+      description: Complete project entity returned by retrieval endpoints, encompassing system metadata and active task arrays.
+      properties:
+        id:
+          type: integer
+          description: The distinct system-wide primary key.
+        title:
+          type: string
+          description: The headline identifier of the project.
+        description:
+          type: string
+          description: Complete contextual information defining the project scope.
+        date:
+          type: string
+          format: date
+          description: Target deadline or milestone date.
+        user:
+          type: integer
+          nullable: true
+          description: Relational primary key pointer referencing the owning User profile entity (`models.ForeignKey`).
+        tasks:
+          type: array
+          description: Nested array containing task nodes mapped backwards to this project via the relational `related_name='tasks'` parameter.
+          items:
+            $ref: '#/components/schemas/TaskResponse'
+
+    TaskRequest:
+      type: object
+      required:
+        - title
+      description: Payload requirements for instantiating or updating task components.
+      properties:
+        title:
+          type: string
+          maxLength: 100
+          description: Required. The actionable summary statement describing the task, limited to 100 characters.
+        project:
+          type: integer
+          nullable: true
+          description: |
+            **Validation:** Optional field (`blank=True, null=True`). 
+            When populated, it must supply the system ID of an extant parent project entity to establish the relationship.
+
+    TaskResponse:
+      type: object
+      description: Complete entity representation of a task object returned to the API client.
+      properties:
+        id:
+          type: integer
+          description: Unique database primary key allocated to the specific task record.
+        title:
+          type: string
+          description: The title text assigned to the task.
+        project:
+          type: integer
+          nullable: true
+          description: The unique ID pointing to the parent project record. Evaluates to `null` if the task is detached or standalone.
